@@ -1,0 +1,60 @@
+---
+title: Quickstart
+description: Install OS20 and run it on your own machine in under 5 minutes.
+icon: "play"
+---
+
+OS20 is a free, open-source CRM that runs entirely on your machine or server. No cloud account, no login, no subscription — your data never leaves your device.
+
+## Requirements
+
+- [Docker Desktop](https://docs.docker.com/get-docker/) (with Docker Compose)
+- [Node.js](https://nodejs.org) 18+ (optional — only needed for the CLI)
+
+## One-command install (CLI)
+
+```bash
+npm install -g os20
+os20 start
+```
+
+The CLI installs everything — PostgreSQL, Redis, and the OS20 app — and opens your browser at `http://localhost:3010` when it's ready.
+
+Other commands:
+
+| Command | What it does |
+| --- | --- |
+| `os20 stop` | Stop OS20 |
+| `os20 status` | Check if OS20 is running |
+| `os20 logs` | View logs (`-f` to follow) |
+| `os20 update` | Pull the latest version and restart |
+| `os20 reset` | **Delete all data** and start fresh |
+
+## Install without the CLI
+
+```bash
+git clone https://github.com/omos-twenty/os20.git
+cd os20
+docker compose up -d
+```
+
+Then open `http://localhost:3010`.
+
+> Your data (files, database) is stored in Docker volumes, so it survives container restarts. Everything stays on your machine.
+
+## Connect your AI providers (optional)
+
+OS20 is designed around multi-AI support. To enable AI features like the AI assistant and Lead Generation:
+
+1. Go to **Settings → AI Providers**
+2. Add a key for **OpenAI, Anthropic, Google Gemini, OpenRouter, Groq, or Ollama** (local)
+3. OS20 stores the key encrypted and uses it per-workspace
+
+## Next steps
+
+- Add AI providers and try **Lead Generation** — OS20 finds companies matching your ideal customer profile and drafts outreach emails.
+- Connect your mailbox in **Settings → Accounts** to import emails and calendar events.
+- Shape your data model in **Settings → Data Model** — custom objects and fields are unlimited.
+- Use the Command Menu (`Cmd+K` / `Ctrl+K`) to import People, Companies, Opportunities, or any custom object via CSV.
+
+Because OS20 is open source and AGPL-licensed, you're free to self-host, modify, and deploy it however you like — with no paywall.
