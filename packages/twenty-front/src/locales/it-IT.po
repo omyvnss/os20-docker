@@ -122,6 +122,11 @@ msgstr "({seats} {seatCountLabel} × ${displayedPerSeatPrice})"
 msgid "(${currentCreditPriceDisplay}/{intervalLabel})"
 msgstr "(${currentCreditPriceDisplay}/{intervalLabel})"
 
+#. js-lingui-id: 0byfLZ
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "(disabled)"
+msgstr ""
+
 #. js-lingui-id: L4H5SW
 #: src/modules/ui/input/components/IconPicker.tsx
 msgid "(no icon selected)"
@@ -302,12 +307,6 @@ msgstr "{0} visualizzati"
 #: src/modules/activities/emails/components/CampaignDetailsFields.tsx
 msgid "{0} unsubscribed from everything"
 msgstr "{0} hanno annullato l’iscrizione da tutto"
-
-#. js-lingui-id: r4l/MK
-#. placeholder {0}: formatUsageValue(totalCredits)
-#: src/pages/settings/billing/SettingsUsageUserDetail.tsx
-msgid "{0} used"
-msgstr "{0} utilizzati"
 
 #. js-lingui-id: izNf/z
 #. placeholder {0}: view.name
@@ -1091,14 +1090,13 @@ msgstr "Azioni che gli utenti possono eseguire su questo oggetto"
 #: src/pages/settings/ai/components/SettingsSkillInactiveMenuDropDown.tsx
 #: src/pages/settings/ai/SettingsSkillForm.tsx
 #: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "Activate"
 msgstr "Attiva"
 
-#. js-lingui-id: eqeFkF
+#. js-lingui-id: VAgXbh
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Activate Enterprise Key"
-msgstr "Attiva la chiave Enterprise"
+msgid "Activate key"
+msgstr ""
 
 #. js-lingui-id: i7ur8L
 #: src/modules/settings/billing/hooks/useEndSubscriptionTrialPeriod.ts
@@ -1118,8 +1116,6 @@ msgstr "Attivazione in corso..."
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
 #: src/modules/settings/domains/components/SettingsWorkspaceDomainCard.tsx
 #: src/pages/settings/applications/tabs/SettingsApplicationTimelineActivityTypeSettingsTab.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 #: src/pages/settings/profile/SettingsProfile.tsx
 msgid "Active"
 msgstr "Attivo"
@@ -1153,6 +1149,12 @@ msgstr "Aggiungi"
 #: src/modules/settings/data-model/fields/forms/select/components/AddSelectOptionMenuItem.tsx
 msgid "Add \"{trimmedName}\" to options"
 msgstr "Aggiungi \"{trimmedName}\" alle opzioni"
+
+#. js-lingui-id: XGItcS
+#. placeholder {0}: selectedCount || ''
+#: src/pages/lead-generation/components/LeadSourcesPanel.tsx
+msgid "Add {0} to CRM"
+msgstr ""
 
 #. js-lingui-id: 9CHcSG
 #: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateNoRecordFoundForFilter.tsx
@@ -1208,6 +1210,11 @@ msgstr "Aggiungi un Trigger"
 msgid "Add a video conferencing link"
 msgstr "Aggiungi un link per videoconferenza"
 
+#. js-lingui-id: XX40RZ
+#: src/pages/settings/web-search-apis/WebSearchApisSettings.tsx
+msgid "Add a web search API key"
+msgstr ""
+
 #. js-lingui-id: MPPZ54
 #: src/modules/activities/calendar/components/CalendarEventComposerFields.tsx
 #: src/modules/settings/accounts/components/SettingsAccountsConnectedAccountsListCard.tsx
@@ -1216,6 +1223,11 @@ msgstr "Aggiungi un link per videoconferenza"
 #: src/pages/settings/accounts/SettingsAccountsConfigurationStepEmail.tsx
 msgid "Add account"
 msgstr "Aggiungi account"
+
+#. js-lingui-id: eFX17T
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Add agent"
+msgstr ""
 
 #. js-lingui-id: W5wF8J
 #: src/modules/activities/calendar/hooks/useComposeCalendarEventRelatedRecordAction.ts
@@ -1505,36 +1517,6 @@ msgstr "Aggiungi provider di identità SSO"
 msgid "Add test input for evaluation (e.g., \"Find all customers in NY\")"
 msgstr ""
 
-#. js-lingui-id: FKGcEL
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server as a remote context server in Zed."
-msgstr "Aggiungi il server MCP Twenty come server di contesto remoto in Zed."
-
-#. js-lingui-id: iA2nHX
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Augment Code settings."
-msgstr "Aggiungi il server MCP Twenty dalle impostazioni di Augment Code."
-
-#. js-lingui-id: l+NzAk
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Raycast's MCP commands or settings."
-msgstr "Aggiungi il server MCP Twenty dai comandi MCP o dalle impostazioni di Raycast."
-
-#. js-lingui-id: j6G/yI
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server in Gemini CLI settings."
-msgstr "Aggiungi il server MCP Twenty nelle impostazioni della CLI di Gemini."
-
-#. js-lingui-id: /OyhlM
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server to your LibreChat configuration file."
-msgstr "Aggiungi il server MCP Twenty al file di configurazione di LibreChat."
-
-#. js-lingui-id: K0DXoj
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty remote server with LM Studio's install link."
-msgstr "Aggiungi il server remoto Twenty con il link di installazione di LM Studio."
-
 #. js-lingui-id: 5+ttxv
 #: src/modules/settings/accounts/components/SettingsAccountsBlocklistInput.tsx
 msgid "Add to blocklist"
@@ -1549,11 +1531,6 @@ msgstr "Aggiungi ai Preferiti"
 #: src/modules/settings/unsubscribe-topics/components/SettingsWorkspaceUnsubscribeTopicSection.tsx
 msgid "Add topic"
 msgstr "Aggiungi argomento"
-
-#. js-lingui-id: 4D/zWv
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add Twenty as a Streamable HTTP extension in Goose."
-msgstr "Aggiungi Twenty come estensione HTTP Streamable in Goose."
 
 #. js-lingui-id: XnwceV
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationRedirectURIsInput.tsx
@@ -1762,6 +1739,11 @@ msgstr "Esecuzione dell'agente"
 msgid "Agent interactions will appear here once the agent is used in conversations"
 msgstr ""
 
+#. js-lingui-id: h25OI6
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Agent name (e.g. scraper-bot)"
+msgstr ""
+
 #. js-lingui-id: mDXkHu
 #: src/pages/settings/ai/SettingsAgentForm.tsx
 msgid "Agent not found"
@@ -1770,6 +1752,11 @@ msgstr "Agente non trovato"
 #. js-lingui-id: 77hGcG
 #: src/modules/settings/roles/components/SettingsRolesList.tsx
 msgid "Agent roles"
+msgstr ""
+
+#. js-lingui-id: OkaYVo
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Agent runs on a private network (e.g. your laptop / localhost)"
 msgstr ""
 
 #. js-lingui-id: Nl33Ds
@@ -1809,7 +1796,6 @@ msgstr ""
 #: src/pages/settings/ai/SettingsAI.tsx
 #: src/pages/settings/ai/SettingsAI.tsx
 #: src/pages/settings/ai/SettingsAiPrompts.tsx
-#: src/pages/settings/ai/SettingsAiUsageUserDetail.tsx
 #: src/pages/settings/ai/SettingsSkillForm.tsx
 #: src/pages/settings/ai/SettingsToolDetail.tsx
 #: src/pages/settings/logic-functions/SettingsLogicFunctionDetail.tsx
@@ -1833,6 +1819,7 @@ msgid "AI agents"
 msgstr "Agenti AI"
 
 #. js-lingui-id: V+Qj+q
+#: src/modules/navigation/components/MainNavigationDrawerTabsRow.tsx
 #: src/modules/settings/usage/utils/getOperationTypeLabel.ts
 msgid "AI Chat"
 msgstr "Chat con IA"
@@ -1863,6 +1850,14 @@ msgstr "Modello AI"
 msgid "AI not configured. Set OPENAI_API_KEY, ANTHROPIC_API_KEY, or XAI_API_KEY in your environment."
 msgstr "IA non configurata. Imposta OPENAI_API_KEY, ANTHROPIC_API_KEY o XAI_API_KEY nel tuo ambiente."
 
+#. js-lingui-id: 8QIbyG
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+#: src/pages/settings/ai-providers/SettingsAIProviders.tsx
+#: src/pages/settings/ai-providers/SettingsAIProviders.tsx
+#: src/pages/settings/ai-providers/SettingsAIProviders.tsx
+msgid "AI Providers"
+msgstr ""
+
 #. js-lingui-id: jwOWhc
 #: src/modules/ai/components/RoutingDebugDisplay.tsx
 msgid "AI request prep"
@@ -1880,7 +1875,6 @@ msgstr "Strumento AI"
 #: src/pages/settings/ai/components/SettingsAiUsageTab.tsx
 #: src/pages/settings/ai/components/SettingsAiUsageTab.tsx
 #: src/pages/settings/ai/components/SettingsAiUsageTab.tsx
-#: src/pages/settings/ai/SettingsAiUsageUserDetail.tsx
 msgid "AI Usage"
 msgstr "Utilizzo dell'IA"
 
@@ -1906,13 +1900,11 @@ msgstr "Le statistiche di utilizzo dell'IA verranno visualizzate qui non appena 
 
 #. js-lingui-id: SknniY
 #: src/pages/settings/ai/components/SettingsAiUsageTab.tsx
-#: src/pages/settings/ai/SettingsAiUsageUserDetail.tsx
 msgid "AI Usage by Model"
 msgstr "Utilizzo dell'IA per modello"
 
 #. js-lingui-id: ehjYr9
 #: src/pages/settings/ai/components/SettingsAiUsageTab.tsx
-#: src/pages/settings/ai/SettingsAiUsageUserDetail.tsx
 msgid "AI Usage by Type"
 msgstr "Utilizzo dell'IA per tipo"
 
@@ -1925,11 +1917,6 @@ msgstr "Utilizzo dell'IA per utente"
 #: src/modules/settings/admin-panel/ai/components/SettingsAdminAI.tsx
 msgid "AI Usage by Workspace"
 msgstr "Utilizzo dell'IA per spazio di lavoro"
-
-#. js-lingui-id: KLyZ6L
-#: src/pages/settings/ai/SettingsAiUsageUserDetail.tsx
-msgid "AI User Usage"
-msgstr "Utilizzo dell'IA da parte dell'utente"
 
 #. js-lingui-id: TLbVxH
 #: src/modules/settings/usage/utils/getOperationTypeLabel.ts
@@ -2005,6 +1992,11 @@ msgstr "Tutte le email"
 #: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
 msgid "All emails and events linked to this account ({accountHandle}) will be deleted"
 msgstr "Tutte le email e gli eventi collegati a questo account ({accountHandle}) verranno eliminati"
+
+#. js-lingui-id: Hv91ha
+#: src/pages/settings/enterprise/SettingsEnterprise.tsx
+msgid "All enterprise features are enabled (SSO, row-level security, audit logs, etc.)."
+msgstr ""
 
 #. js-lingui-id: GNJgJf
 #: src/modules/settings/admin-panel/health-status/hooks/useRetryJobs.ts
@@ -2113,25 +2105,35 @@ msgstr "Tutti gli spazi di lavoro di cui questo utente è membro"
 msgid "All your custom objects"
 msgstr "Tutti i tuoi oggetti personalizzati"
 
+#. js-lingui-id: KXoc07
+#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
+msgid "Allow access through Google's single sign-on functionality."
+msgstr ""
+
+#. js-lingui-id: s/I8Z+
+#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
+msgid "Allow access through Microsoft's single sign-on functionality."
+msgstr ""
+
 #. js-lingui-id: 2M5OF+
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useActionRolePermissionFlagConfig.ts
 msgid "Allow downloading files and attachments"
 msgstr "Consenti il download di file e allegati"
 
-#. js-lingui-id: 6BV/aG
+#. js-lingui-id: twuCcy
 #: src/modules/settings/security/components/SettingsSecurityAuthBypassOptionsList.tsx
-msgid "Allow email & password login for SSO bypass users."
-msgstr "Consenti login con email e password agli utenti che evitano l'SSO."
+msgid "Allow email & password access for SSO bypass users."
+msgstr ""
 
 #. js-lingui-id: +XmkDf
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useActionRolePermissionFlagConfig.ts
 msgid "Allow exporting data to CSV files"
 msgstr "Consenti l'esportazione dei dati in file CSV"
 
-#. js-lingui-id: q/pgyN
+#. js-lingui-id: Tl0D6y
 #: src/modules/settings/security/components/SettingsSecurityAuthBypassOptionsList.tsx
-msgid "Allow Google-based login for users with SSO bypass permissions."
-msgstr "Consenti login basato su Google per utenti con autorizzazione a evitare l'SSO."
+msgid "Allow Google-based access for users with SSO bypass permissions."
+msgstr ""
 
 #. js-lingui-id: gCnKdT
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useActionRolePermissionFlagConfig.ts
@@ -2143,20 +2145,10 @@ msgstr "Consenti l'importazione di dati da file CSV"
 msgid "Allow installation"
 msgstr "Consenti l'installazione"
 
-#. js-lingui-id: GMx1K0
-#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
-msgid "Allow logins through Google's single sign-on functionality."
-msgstr "Consenti l'accesso tramite la funzionalità single sign-on di Google."
-
-#. js-lingui-id: dea+zy
-#: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
-msgid "Allow logins through Microsoft's single sign-on functionality."
-msgstr "Consenti l'accesso tramite la funzionalità single sign-on di Microsoft."
-
-#. js-lingui-id: pf6MGm
+#. js-lingui-id: sfzWe8
 #: src/modules/settings/security/components/SettingsSecurityAuthBypassOptionsList.tsx
-msgid "Allow Microsoft-based login for users with SSO bypass permissions."
-msgstr "Consenti login basato su Microsoft per utenti con autorizzazione a evitare l'SSO."
+msgid "Allow Microsoft-based access for users with SSO bypass permissions."
+msgstr ""
 
 #. js-lingui-id: U6bnfj
 #: src/modules/settings/workspace/components/ToggleImpersonate.tsx
@@ -2173,10 +2165,10 @@ msgstr "Consenti l'invito di nuovi utenti condividendo un link di invito."
 msgid "Allow uploading files and attachments"
 msgstr "Consenti il caricamento di file e allegati"
 
-#. js-lingui-id: vHeVg5
+#. js-lingui-id: ppKCYd
 #: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
-msgid "Allow users to sign in with an email and password."
-msgstr "Consenti agli utenti di accedere con e-mail e password."
+msgid "Allow users to authenticate with an email and password."
+msgstr ""
 
 #. js-lingui-id: vj+OHl
 #: src/pages/settings/applications/tabs/SettingsApplicationRegistrationOAuthTab.tsx
@@ -2198,11 +2190,6 @@ msgstr "Già nella barra di navigazione"
 #: src/modules/advanced-text-editor/constants/AdvancedTextEditorBlockCatalog.ts
 msgid "Alt text"
 msgstr "Testo alternativo"
-
-#. js-lingui-id: Fc64QW
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Amazon Q Developer CLI"
-msgstr "Amazon Q Developer CLI"
 
 #. js-lingui-id: uprOiC
 #: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
@@ -2359,6 +2346,11 @@ msgstr "API"
 #: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
 msgid "API calls"
 msgstr "Chiamate API"
+
+#. js-lingui-id: iq3W+B
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "API key"
+msgstr ""
 
 #. js-lingui-id: yRnk5W
 #: src/pages/settings/admin-panel/SettingsAdminAiProviderDetail.tsx
@@ -2885,11 +2877,6 @@ msgstr "Registri di controllo"
 msgid "Audit Logs"
 msgstr "Registri di controllo"
 
-#. js-lingui-id: 6TRVUO
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Augment Code"
-msgstr "Augment Code"
-
 #. js-lingui-id: kIuOL4
 #: src/modules/workflow/workflow-trigger/components/WorkflowEditTriggerWebhookForm.tsx
 msgid "Auth"
@@ -3090,6 +3077,11 @@ msgstr "Crediti base"
 msgid "Base URL"
 msgstr "URL di base"
 
+#. js-lingui-id: XfY4XE
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Base URL (e.g. http://localhost:8000)"
+msgstr ""
+
 #. js-lingui-id: QtMnui
 #: src/pages/settings/admin-panel/SettingsAdminNewAiProvider.tsx
 msgid "Base URL is required"
@@ -3168,11 +3160,8 @@ msgstr "Fatturato mensilmente"
 #: src/modules/settings/billing/components/SettingsBillingPageLayout.tsx
 #: src/modules/settings/billing/components/SettingsBillingPageLayout.tsx
 #: src/modules/settings/billing/components/SettingsBillingTabBar.tsx
-#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useSettingsRolePermissionFlagConfig.ts
 #: src/pages/settings/admin-panel/SettingsAdminWorkspaceDetail.tsx
-#: src/pages/settings/billing/SettingsUsage.tsx
-#: src/pages/settings/billing/SettingsUsageUserDetail.tsx
 msgid "Billing"
 msgstr "Fatturazione"
 
@@ -3180,11 +3169,6 @@ msgstr "Fatturazione"
 #: src/utils/title-utils.ts
 msgid "Billing - Settings"
 msgstr "Fatturazione - Impostazioni"
-
-#. js-lingui-id: dSjFxR
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Billing history"
-msgstr "Cronologia di fatturazione"
 
 #. js-lingui-id: nJGwRf
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
@@ -3198,10 +3182,10 @@ msgstr "Intervallo di fatturazione"
 msgid "Billing period"
 msgstr "Periodo di fatturazione"
 
-#. js-lingui-id: xF/NXI
+#. js-lingui-id: 71fRg4
 #: src/modules/settings/billing/hooks/useBillingPortalSession.ts
-msgid "Billing portal session error. Please retry or contact Twenty team"
-msgstr "Errore nella sessione del portale di fatturazione. Riprova o contatta il team di Twenty"
+msgid "Billing portal session error. Please retry or contact OS20 team"
+msgstr ""
 
 #. js-lingui-id: 8kIU+G
 #: src/modules/advanced-text-editor/constants/AdvancedTextEditorBlockCatalog.ts
@@ -3279,7 +3263,6 @@ msgstr "Rimbalzo"
 
 #. js-lingui-id: 1hGdwj
 #: src/pages/settings/ai/components/SettingsAiUsageTab.tsx
-#: src/pages/settings/ai/SettingsAiUsageUserDetail.tsx
 msgid "Breakdown across AI models."
 msgstr "Ripartizione tra i modelli di IA."
 
@@ -3287,6 +3270,11 @@ msgstr "Ripartizione tra i modelli di IA."
 #: src/modules/workflow/workflow-steps/workflow-actions/ai-agent-action/components/WorkflowOutputSchemaBuilder.tsx
 msgid "Brief explanation of this output field"
 msgstr "Spiegazione sintetica di questo campo di output"
+
+#. js-lingui-id: g0nP2N
+#: src/pages/settings/ai-providers/SettingsAIProviders.tsx
+msgid "Bring your own API key to power lead generation and AI features. Keys are stored locally and encrypted — they never leave this device."
+msgstr ""
 
 #. js-lingui-id: IjfaX/
 #: src/modules/workflow/workflow-steps/filters/components/WorkflowStepFilterFieldSelect.tsx
@@ -3389,10 +3377,10 @@ msgstr "Pulsante"
 msgid "by {author}"
 msgstr "di {author}"
 
-#. js-lingui-id: 8Pfllj
+#. js-lingui-id: Mr443q
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
-msgid "By using Twenty, you agree to the"
-msgstr "Utilizzando Twenty, accetti la"
+msgid "By using OS20, you agree to the"
+msgstr ""
 
 #. js-lingui-id: Yx41df
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
@@ -3630,7 +3618,6 @@ msgstr "Annulla il cambio di intervallo?"
 
 #. js-lingui-id: rRK/Lf
 #: src/modules/settings/billing/components/SettingsBillingContent.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "Cancel Plan"
 msgstr "Annulla piano"
 
@@ -3651,13 +3638,11 @@ msgstr "Annulla risposta"
 
 #. js-lingui-id: N6gPiD
 #: src/modules/settings/billing/components/SettingsBillingContent.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "Cancel your subscription"
 msgstr "Annulla l'abbonamento"
 
 #. js-lingui-id: GGWsTU
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "Canceled"
 msgstr "Annullato"
 
@@ -3665,11 +3650,6 @@ msgstr "Annullato"
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
 msgid "Canceled at"
 msgstr "Annullato il"
-
-#. js-lingui-id: y4uH7j
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Cancelling"
-msgstr "Annullamento in corso"
 
 #. js-lingui-id: zbbpgB
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
@@ -3680,11 +3660,6 @@ msgstr "Verrà annullato il"
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
 msgid "Cancels at period end"
 msgstr "Verrà annullato al termine del periodo"
-
-#. js-lingui-id: WbPx+C
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Cancels on"
-msgstr "Verrà annullato il"
 
 #. js-lingui-id: XDbjjW
 #: src/modules/object-record/object-options-dropdown/components/ObjectOptionsDropdownCustomView.tsx
@@ -3840,11 +3815,6 @@ msgstr "Canali"
 msgid "Chart"
 msgstr "Grafico"
 
-#. js-lingui-id: AHZflp
-#: src/modules/navigation/components/MainNavigationDrawerTabsRow.tsx
-msgid "Chat"
-msgstr "Chat"
-
 #. js-lingui-id: rlwve5
 #: src/modules/ai/components/AiChatThreadItemMenu.tsx
 msgid "Chat actions"
@@ -3903,11 +3873,11 @@ msgstr "Controlla le tue email"
 msgid "Check your inbox to verify your new email address."
 msgstr "Controlla la tua casella di posta per verificare il tuo nuovo indirizzo email."
 
-#. js-lingui-id: SxwQE8
+#. js-lingui-id: JQrkIi
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
-msgid "Checkout session error. Please retry or contact Twenty team"
-msgstr "Errore nella sessione di pagamento. Riprova o contatta il team di Twenty"
+msgid "Checkout session error. Please retry or contact OS20 team"
+msgstr ""
 
 #. js-lingui-id: SviKkE
 #: src/localization/hooks/useLocaleOptions.ts
@@ -3923,11 +3893,6 @@ msgstr "Cinese tradizionale"
 #: src/modules/settings/billing/components/internal/ResourceCreditPackagePickerModal.tsx
 msgid "Choose {intervalAdjective} credits"
 msgstr "Scegli crediti {intervalAdjective}"
-
-#. js-lingui-id: NFfUic
-#: src/pages/auth/SignInUp.tsx
-msgid "Choose a Workspace"
-msgstr "Scegli uno Spazio di Lavoro"
 
 #. js-lingui-id: Qz73jD
 #: src/modules/settings/security/components/SSO/SettingsSSOIdentitiesProvidersForm.tsx
@@ -4061,12 +4026,6 @@ msgstr "Cancella filtri"
 msgid "Clear the field or \"X\" to revert to environment/default value."
 msgstr "Cancella il campo o \"X\" per ripristinare il valore di ambiente/predefinito."
 
-#. js-lingui-id: 7P8Mbj
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "CLI config"
-msgstr "Configurazione CLI"
-
 #. js-lingui-id: Gt8ndY
 #: src/modules/settings/usage/components/SettingsUsageAnalyticsSection.tsx
 #: src/pages/settings/ai/components/SettingsAiUsageTab.tsx
@@ -4145,11 +4104,6 @@ msgstr "Segreto client ruotato. Copialo ora — non verrà più mostrato."
 #: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
 msgid "Client Settings"
 msgstr "Impostazioni client"
-
-#. js-lingui-id: yJ8MIx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Cline"
-msgstr "Cline"
 
 #. js-lingui-id: mekEJ5
 #: src/hooks/useCopyToClipboard.tsx
@@ -4534,10 +4488,10 @@ msgstr "Configura le impostazioni CalDAV per sincronizzare i tuoi eventi del cal
 msgid "Configure date, time, number, timezone, and calendar start day"
 msgstr "Configura data, ora, numero, fuso orario e giorno di inizio calendario"
 
-#. js-lingui-id: utsXG8
+#. js-lingui-id: gZRBaF
 #: src/modules/settings/security/components/SettingsSecuritySettings.tsx
-msgid "Configure fallback login methods for users with SSO bypass permissions"
-msgstr "Configura metodi di accesso alternativi per utenti con permessi di bypass SSO"
+msgid "Configure fallback methods for users with SSO bypass permissions"
+msgstr ""
 
 #. js-lingui-id: zXzR4W
 #: src/modules/settings/security/components/SettingsSecuritySettings.tsx
@@ -4559,6 +4513,11 @@ msgstr "Configura come visualizzare i tuoi eventi nel calendario"
 msgid "Configure IMAP settings to receive and sync your emails."
 msgstr "Configura le impostazioni IMAP per ricevere e sincronizzare le tue email."
 
+#. js-lingui-id: Iahbny
+#: src/pages/settings/ai-providers/SettingsAIProviders.tsx
+msgid "Configure providers"
+msgstr ""
+
 #. js-lingui-id: gk/8eh
 #: src/modules/settings/accounts/components/SettingsAccountsConnectionForm.tsx
 msgid "Configure SMTP settings to send emails from your account."
@@ -4568,26 +4527,6 @@ msgstr "Configura le impostazioni SMTP per inviare email dal tuo account."
 #: src/modules/settings/admin-panel/ai/components/SettingsAdminAI.tsx
 msgid "Configure the default AI models for all workspaces"
 msgstr "Configura i modelli IA predefiniti per tutti gli spazi di lavoro"
-
-#. js-lingui-id: CcCy4C
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Configure the remote MCP server through Warp's agent settings."
-msgstr "Configura il server MCP remoto tramite le impostazioni dell’agente di Warp."
-
-#. js-lingui-id: pHIR4s
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Configure the remote server in Amazon Q Developer's MCP settings."
-msgstr "Configura il server remoto nelle impostazioni MCP di Amazon Q Developer."
-
-#. js-lingui-id: g1/8jH
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cascade."
-msgstr "Configura manualmente il server MCP Twenty in Cascade."
-
-#. js-lingui-id: XiyvRh
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cline."
-msgstr "Configura manualmente il server MCP Twenty in Cline."
 
 #. js-lingui-id: qA9AGQ
 #: src/modules/settings/domains/components/SettingsDomainRecords.tsx
@@ -4696,11 +4635,6 @@ msgstr "Collega un account del calendario"
 msgid "Connect a new account to your workspace"
 msgstr "Collega un nuovo account al tuo workspace"
 
-#. js-lingui-id: CMrq4R
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Connect additional MCP clients using install links or client docs."
-msgstr "Collega ulteriori client MCP usando i link di installazione o la documentazione dei client."
-
 #. js-lingui-id: vPCRNy
 #: src/pages/settings/ai/components/SettingsAiOverviewTab.tsx
 msgid "Connect AI assistants like Claude or Cursor to your workspace via the Model Context Protocol"
@@ -4737,6 +4671,11 @@ msgstr "Collega la tua email e il tuo calendario per vedere immediatamente l’i
 msgid "Connected"
 msgstr "Connesso"
 
+#. js-lingui-id: 2o26gz
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Connected — lead fetching ready"
+msgstr ""
+
 #. js-lingui-id: 9TzudL
 #: src/pages/settings/accounts/SettingsAccounts.tsx
 msgid "Connected accounts"
@@ -4748,6 +4687,11 @@ msgstr "Account collegati"
 #: src/pages/settings/applications/tabs/SettingsApplicationConnectionsSection.tsx
 msgid "Connection"
 msgstr "Connessione"
+
+#. js-lingui-id: aDJSnJ
+#: src/pages/settings/ai-providers/SettingsAIProviders.tsx
+msgid "Connection failed — check your key."
+msgstr ""
 
 #. js-lingui-id: XYeKcu
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
@@ -5073,6 +5017,12 @@ msgstr "Costo per milione di token (USD)"
 msgid "Cost per million tokens for cached input (USD)"
 msgstr "Costo per milione di token per input in cache (USD)"
 
+#. js-lingui-id: XiWQ80
+#. placeholder {0}: error.message
+#: src/pages/settings/enterprise/SettingsEnterprise.tsx
+msgid "Could not activate key: {0}"
+msgstr ""
+
 #. js-lingui-id: T8ACay
 #: src/pages/settings/applications/components/SettingsClaimApplicationSection.tsx
 msgid "Could not claim this application"
@@ -5098,10 +5048,10 @@ msgstr "Impossibile scaricare il documento."
 msgid "Could not generate the signed DPA. Please try again."
 msgstr "Impossibile generare il DPA firmato. Riprova."
 
-#. js-lingui-id: KqYYBp
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Could not open billing portal. Please check your enterprise key is present, or contact support."
-msgstr "Impossibile aprire il portale di fatturazione. Verifica che la tua chiave Enterprise sia presente oppure contatta l'assistenza."
+#. js-lingui-id: FatLKZ
+#: src/pages/lead-generation/components/LeadSourcesPanel.tsx
+msgid "Could not load lead sources."
+msgstr ""
 
 #. js-lingui-id: ZuI4Sl
 #: src/modules/settings/enterprise/components/EnterprisePlanModal.tsx
@@ -5112,21 +5062,6 @@ msgstr "Impossibile aprire Stripe. Contatta l'assistenza."
 #: src/modules/settings/mcp-and-apis/hooks/useOpenPlayground.ts
 msgid "Could not open the API playground"
 msgstr "Impossibile aprire il playground API"
-
-#. js-lingui-id: w1HkE9
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Could not refresh validity token - reverted the instance type change."
-msgstr "Impossibile aggiornare il token di validità: è stata annullata la modifica del tipo di istanza."
-
-#. js-lingui-id: sJS35p
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Could not refresh validity token and could not revert the instance type change."
-msgstr "Impossibile aggiornare il token di validità e impossibile annullare la modifica del tipo di istanza."
-
-#. js-lingui-id: wVw4Am
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Could not refresh validity token. Please contact support."
-msgstr "Impossibile aggiornare il token di validità. Contatta l'assistenza."
 
 #. js-lingui-id: 5PWKlr
 #: src/pages/settings/applications/components/SettingsClaimApplicationSection.tsx
@@ -5142,16 +5077,6 @@ msgstr "Impossibile avviare la rivendicazione su GitHub"
 #: src/pages/settings/applications/components/SettingsClaimApplicationSection.tsx
 msgid "Could not sync the catalog"
 msgstr "Impossibile sincronizzare il catalogo"
-
-#. js-lingui-id: dIvwQK
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Could not transfer the enterprise key. Please contact support."
-msgstr "Impossibile trasferire la chiave Enterprise. Contatta l’assistenza."
-
-#. js-lingui-id: xsKD3e
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Could not update the instance type"
-msgstr "Impossibile aggiornare il tipo di istanza"
 
 #. js-lingui-id: PiYvMl
 #: src/modules/navigation-menu-item/edit/hooks/useNavigationMenuItemEditController.ts
@@ -5414,7 +5339,6 @@ msgstr "Crea spazio di lavoro"
 
 #. js-lingui-id: 9chYz/
 #: src/modules/auth/sign-in-up/components/internal/SignInUpWorkspaceCreationForm.tsx
-#: src/pages/auth/SignInUp.tsx
 msgid "Create your workspace"
 msgstr "Crea il tuo spazio di lavoro"
 
@@ -5537,7 +5461,6 @@ msgstr "crediti"
 #: src/modules/settings/billing/components/SettingsBillingCreditsSection.tsx
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
 #: src/modules/settings/usage/components/SettingsUsageAnalyticsSection.tsx
-#: src/pages/settings/billing/SettingsUsageUserDetail.tsx
 msgid "Credits"
 msgstr "Crediti"
 
@@ -5688,11 +5611,6 @@ msgstr "Versione attuale"
 #: src/modules/settings/profile/components/DeleteAccount.tsx
 msgid "Current workspace member not found."
 msgstr "Membro corrente dello spazio di lavoro non trovato."
-
-#. js-lingui-id: mO0Peh
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Cursor"
-msgstr "Cursor"
 
 #. js-lingui-id: bfu5HZ
 #: src/modules/advanced-text-editor/constants/AdvancedTextEditorBlockCatalog.ts
@@ -5881,13 +5799,11 @@ msgstr "Ceco"
 
 #. js-lingui-id: ShUrwO
 #: src/pages/settings/ai/components/SettingsAiUsageTab.tsx
-#: src/pages/settings/ai/SettingsAiUsageUserDetail.tsx
 msgid "Daily AI Usage"
 msgstr "Utilizzo giornaliero dell'IA"
 
 #. js-lingui-id: KXQkvT
 #: src/modules/settings/usage/components/SettingsUsageAnalyticsSection.tsx
-#: src/pages/settings/billing/SettingsUsageUserDetail.tsx
 msgid "Daily Usage"
 msgstr "Utilizzo giornaliero"
 
@@ -6333,6 +6249,8 @@ msgstr "elimina"
 #: src/pages/settings/data-model/SettingsObjectFieldEdit.tsx
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+#: src/pages/settings/web-search-apis/WebSearchApisSettings.tsx
 msgid "Delete"
 msgstr "Elimina"
 
@@ -6588,6 +6506,11 @@ msgstr "Discendente"
 msgid "Describe what you want the AI to do..."
 msgstr "Descrivi cosa vuoi che l'AI faccia..."
 
+#. js-lingui-id: uENwEC
+#: src/pages/lead-generation/LeadGeneration.tsx
+msgid "Describe your ideal customer and AI will find matching companies for you. 100% free — no paid APIs required."
+msgstr ""
+
 #. js-lingui-id: Nu4oKW
 #: src/modules/activities/calendar/components/CalendarEventComposerFields.tsx
 #: src/modules/settings/config-variables/components/ConfigVariableTable.tsx
@@ -6682,11 +6605,6 @@ msgstr "Sviluppatori"
 msgid "Developers links"
 msgstr "Link per sviluppatori"
 
-#. js-lingui-id: b9bH06
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Development instance"
-msgstr "Istanza di sviluppo"
-
 #. js-lingui-id: le4Hch
 #: src/modules/settings/profile/devices/components/SettingsDeviceSessionRowDropdownMenu.tsx
 msgid "Device logged out"
@@ -6706,6 +6624,11 @@ msgstr "Dispositivi con una sessione attiva sul tuo account"
 #: src/pages/settings/layout/SettingsLayoutViewDetail.tsx
 msgid "Direction"
 msgstr "Direzione"
+
+#. js-lingui-id: cO9+2L
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Disable"
+msgstr ""
 
 #. js-lingui-id: XDeNvP
 #: src/modules/settings/admin-panel/components/SettingsAdminServerAdminAccess.tsx
@@ -6818,20 +6741,6 @@ msgstr "Non importare"
 #: src/modules/settings/unsubscribers/components/SettingsUnsubscribePreview.tsx
 msgid "Do you want to unsubscribe?"
 msgstr "Vuoi annullare l'iscrizione?"
-
-#. js-lingui-id: TbjyhA
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Docs"
-msgstr "Documentazione"
 
 #. js-lingui-id: 7Zdnlq
 #: src/modules/settings/legal/components/SettingsDpaAgreementsTable.tsx
@@ -7217,8 +7126,6 @@ msgstr "Modifica pagina"
 
 #. js-lingui-id: h2KoTu
 #: src/modules/settings/billing/components/SettingsBillingContent.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "Edit payment method, see your invoices and more"
 msgstr "Modifica il metodo di pagamento, visualizza le fatture e altro"
 
@@ -7521,6 +7428,11 @@ msgstr "Oggetto vuoto"
 msgid "Empty tab"
 msgstr "Scheda vuota"
 
+#. js-lingui-id: PaQ3df
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Enable"
+msgstr ""
+
 #. js-lingui-id: q11Dk2
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useSettingsRolePermissionFlagConfig.ts
 msgid "Enable bypass options"
@@ -7541,6 +7453,11 @@ msgstr "Abilita le funzionalità specifiche del modello"
 msgid "Encryption key rotation"
 msgstr "Rotazione delle chiavi di crittografia"
 
+#. js-lingui-id: 2UrywG
+#: src/modules/settings/profile/devices/components/SettingsProfileDevicesSection.tsx
+msgid "End all other device sessions"
+msgstr ""
+
 #. js-lingui-id: IrI9pg
 #: src/modules/settings/admin-panel/health-status/maintenance-mode/components/SettingsAdminMaintenanceMode.tsx
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
@@ -7559,6 +7476,11 @@ msgstr "Campo data di fine"
 #: src/modules/settings/admin-panel/health-status/maintenance-mode/components/SettingsAdminMaintenanceMode.tsx
 msgid "End date must be after start date."
 msgstr "La data di fine deve essere successiva alla data di inizio."
+
+#. js-lingui-id: TPCNSj
+#: src/modules/settings/profile/devices/components/SettingsDeviceSessionRowDropdownMenu.tsx
+msgid "End session"
+msgstr ""
 
 #. js-lingui-id: k1i50B
 #: src/modules/information-banner/components/billing/InformationBannerEndTrialPeriod.tsx
@@ -7591,10 +7513,10 @@ msgstr "Fine"
 msgid "Ends at"
 msgstr "Termina alle"
 
-#. js-lingui-id: Vv4JVS
+#. js-lingui-id: tSveDR
 #: src/modules/settings/security/components/Toggle2FA.tsx
-msgid "Enforce two-step verification for every user login."
-msgstr "Imponi la verifica in due passaggi per ogni accesso utente."
+msgid "Enforce two-step verification for every user."
+msgstr ""
 
 #. js-lingui-id: lYGfRP
 #: src/localization/hooks/useLocaleOptions.ts
@@ -7848,7 +7770,6 @@ msgstr "Inserisci il tuo codice di autenticazione a due fattori per confermare."
 #. js-lingui-id: GpB8YV
 #: src/modules/settings/admin-panel/hooks/useSettingsAdminTabs.ts
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "Enterprise"
 msgstr "Enterprise"
 
@@ -7859,26 +7780,20 @@ msgstr "Enterprise"
 msgid "Enterprise feature"
 msgstr "Funzionalità Enterprise"
 
-#. js-lingui-id: qKfd/C
+#. js-lingui-id: fasAWC
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Enterprise key transferred to this server"
-msgstr "Chiave Enterprise trasferita a questo server"
+msgid "Enterprise Features"
+msgstr ""
 
-#. js-lingui-id: S5c4pl
+#. js-lingui-id: qUcReW
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Enterprise License"
-msgstr "Licenza Enterprise"
+msgid "Enterprise Key"
+msgstr ""
 
-#. js-lingui-id: KGE5g0
+#. js-lingui-id: J9i3Ww
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Enterprise license activated successfully"
-msgstr "Licenza Enterprise attivata correttamente"
+msgid "Enterprise key activated successfully"
+msgstr ""
 
 #. js-lingui-id: SLuq/l
 #: src/modules/settings/security/components/SSO/SettingsSSOSAMLForm.tsx
@@ -7933,11 +7848,6 @@ msgstr "Cancellazione dei record eliminati temporaneamente"
 msgid "Error"
 msgstr "Errore"
 
-#. js-lingui-id: VouTsQ
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Error activating enterprise license"
-msgstr "Errore durante l'attivazione della licenza Enterprise"
-
 #. js-lingui-id: GHKxvg
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
 msgid "Error deleting api key."
@@ -7983,11 +7893,6 @@ msgstr "Errore nel caricamento del messaggio"
 msgid "Error Message"
 msgstr "Messaggio di errore"
 
-#. js-lingui-id: Mox63G
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Error opening billing portal"
-msgstr "Errore durante l'apertura del portale di fatturazione"
-
 #. js-lingui-id: e/eieW
 #: src/modules/settings/enterprise/components/EnterprisePlanModal.tsx
 msgid "Error opening Stripe"
@@ -7998,11 +7903,6 @@ msgstr "Errore durante l'apertura di Stripe"
 #: src/modules/ui/field/display/components/PhonesDisplay.tsx
 msgid "Error parsing additional phones: {0}"
 msgstr "Errore nell'analisi dei numeri di telefono aggiuntivi: {0}"
-
-#. js-lingui-id: zRXcyv
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Error refreshing validity token. Please contact support."
-msgstr "Errore durante l'aggiornamento del token di validità. Contatta l'assistenza."
 
 #. js-lingui-id: PfAip2
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
@@ -8023,11 +7923,6 @@ msgstr "Errore durante la reimpostazione della variabile"
 #: src/pages/settings/applications/tabs/SettingsApplicationRegistrationOAuthTab.tsx
 msgid "Error rotating client secret"
 msgstr "Errore durante la rotazione del segreto client"
-
-#. js-lingui-id: ZeIlj6
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Error transferring the enterprise key"
-msgstr "Errore nel trasferimento della chiave Enterprise"
 
 #. js-lingui-id: 5Vy8D1
 #: src/pages/settings/applications/SettingsApplicationDetails.tsx
@@ -8069,10 +7964,10 @@ msgstr "Errore durante l'annullamento del cambio di intervallo."
 msgid "Error while cancelling plan switching."
 msgstr "Errore durante l'annullamento del cambio di piano."
 
-#. js-lingui-id: QmR+2U
+#. js-lingui-id: VayMBn
 #: src/modules/settings/billing/hooks/useEndSubscriptionTrialPeriod.ts
-msgid "Error while ending trial period. Please contact Twenty team."
-msgstr "Errore durante la conclusione del periodo di prova. Si prega di contattare il team di Twenty."
+msgid "Error while ending trial period. Please contact OS20 team."
+msgstr ""
 
 #. js-lingui-id: 5g78zo
 #: src/pages/settings/members/SettingsWorkspaceMember.tsx
@@ -8448,10 +8343,10 @@ msgstr "Impossibile {translatedOperationType} {translatedMetadataName}. Riprova.
 msgid "Failed to {translatedOperationType} {translatedMetadataName}. Related {relatedEntityNames} validation failed. Please check your configuration and try again."
 msgstr "Impossibile {translatedOperationType} {translatedMetadataName}. La convalida dei {relatedEntityNames} correlati non è riuscita. Verifica la configurazione e riprova."
 
-#. js-lingui-id: R1XJV1
+#. js-lingui-id: kK/sDV
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Failed to activate enterprise license. Please check your key or contact support."
-msgstr "Impossibile attivare la licenza Enterprise. Verifica la tua chiave oppure contatta l'assistenza."
+msgid "Failed to activate enterprise key. Please contact support."
+msgstr ""
 
 #. js-lingui-id: vJiM7T
 #: src/pages/settings/ai/components/SettingsAgentSkillsTab.tsx
@@ -8524,6 +8419,16 @@ msgstr "Impossibile duplicare il cruscotto"
 msgid "Failed to duplicate workflow"
 msgstr ""
 
+#. js-lingui-id: /pQotT
+#: src/modules/settings/profile/devices/components/SettingsProfileDevicesSection.tsx
+msgid "Failed to end other device sessions"
+msgstr ""
+
+#. js-lingui-id: wxeTOU
+#: src/modules/settings/profile/devices/components/SettingsDeviceSessionRowDropdownMenu.tsx
+msgid "Failed to end this device session"
+msgstr ""
+
 #. js-lingui-id: dqEkUR
 #: src/pages/settings/ai/components/SettingsAgentLogsTab.tsx
 msgid "Failed to evaluate turn"
@@ -8579,16 +8484,6 @@ msgstr "Impossibile caricare gli amministratori del server."
 #: src/modules/settings/developers/hooks/useWebhookForm.ts
 msgid "Failed to load webhook"
 msgstr "Caricamento del webhook fallito"
-
-#. js-lingui-id: qQiBwb
-#: src/modules/settings/profile/devices/components/SettingsProfileDevicesSection.tsx
-msgid "Failed to log out other devices"
-msgstr "Impossibile disconnettere gli altri dispositivi"
-
-#. js-lingui-id: ERoMSu
-#: src/modules/settings/profile/devices/components/SettingsDeviceSessionRowDropdownMenu.tsx
-msgid "Failed to log out this device"
-msgstr "Impossibile disconnettere questo dispositivo"
 
 #. js-lingui-id: TZV+Pv
 #: src/modules/object-record/record-merge/hooks/useMergeRecordsActions.ts
@@ -9094,6 +8989,11 @@ msgstr "filtraggio"
 msgid "Filters"
 msgstr "Filtri"
 
+#. js-lingui-id: me9Ujw
+#: src/pages/lead-generation/LeadGeneration.tsx
+msgid "Find your leads"
+msgstr ""
+
 #. js-lingui-id: YTaTdm
 #: src/modules/ai/constants/crud-tool-operation-verbs.constant.ts
 msgid "Finding {objectLabel}"
@@ -9162,11 +9062,6 @@ msgstr "Nome"
 #: src/pages/onboarding/CreateProfile.tsx
 msgid "First name can not be empty"
 msgstr "Il nome non può essere vuoto"
-
-#. js-lingui-id: JREYkg
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Fix the payment issue to keep your enterprise features active."
-msgstr "Risolvi il problema di pagamento per mantenere attive le funzionalità Enterprise."
 
 #. js-lingui-id: Xgkhyj
 #: src/modules/settings/admin-panel/chats/components/SettingsAdminChatsTable.tsx
@@ -9398,11 +9293,6 @@ msgstr "Esecuzione funzione"
 msgid "Functions - Settings"
 msgstr "Funzioni - Impostazioni"
 
-#. js-lingui-id: e4FdDl
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Gemini CLI"
-msgstr "Gemini CLI"
-
 #. js-lingui-id: Weq9zb
 #: src/modules/keyboard-shortcut-menu/components/KeyboardShortcutMenuOpenContent.tsx
 #: src/modules/page-layout/widgets/fields/hooks/useFieldsWidgetGroupsForDisplay.ts
@@ -9459,19 +9349,8 @@ msgstr "Tedesco"
 
 #. js-lingui-id: sqtljx
 #: src/modules/settings/enterprise/components/EnterprisePlanModal.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "Get Enterprise"
 msgstr "Ottieni Enterprise"
-
-#. js-lingui-id: o2kSwB
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Get Enterprise Key"
-msgstr "Ottieni la chiave Enterprise"
 
 #. js-lingui-id: gRFvyL
 #: src/modules/onboarding/constants/OnboardingInstallableApps.ts
@@ -9514,11 +9393,10 @@ msgstr "Ricerca globale"
 msgid "Go back"
 msgstr "Torna indietro"
 
-#. js-lingui-id: Hb4Cgz
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Go to billing portal"
-msgstr "Vai al portale di fatturazione"
+#. js-lingui-id: p1cr9y
+#: src/pages/auth/OS20SignedOut.tsx
+msgid "Go to CRM"
+msgstr ""
 
 #. js-lingui-id: dHvI9O
 #: src/modules/command-menu-item/engine-command/record/single-record/workflow-versions/components/UseAsDraftWorkflowVersionSingleRecordCommand.tsx
@@ -9559,10 +9437,10 @@ msgstr "Google OIDC"
 msgid "Google, Microsoft or CalDAV account to create the event on. Leave empty to use the default calendar account."
 msgstr "Account Google, Microsoft o CalDAV su cui creare l’evento. Lascia vuoto per usare l’account calendario predefinito."
 
-#. js-lingui-id: IagMXz
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Goose"
-msgstr "Goose"
+#. js-lingui-id: 896n4Z
+#: src/pages/settings/web-search-apis/WebSearchApisSettings.tsx
+msgid "Got a key from a search service? Store it here so it's readable from your workspace."
+msgstr ""
 
 #. js-lingui-id: nE5VAt
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceCreditGrantModal.tsx
@@ -9889,13 +9767,12 @@ msgstr "Nascondi etichetta"
 msgid "Hide system indexes"
 msgstr "Nascondi indici di sistema"
 
-#. js-lingui-id: 1ETc0T
+#. js-lingui-id: IZmT2S
 #: src/pages/settings/community/SettingsCommunity.tsx
-msgid "Hire a partner to help you implement and customize Twenty."
-msgstr "Assumi un partner che ti aiuti a implementare e personalizzare Twenty."
+msgid "Hire a partner to help you implement and customize OS20."
+msgstr ""
 
 #. js-lingui-id: i0qMbr
-#: src/modules/navigation/components/MainNavigationDrawerTabsRow.tsx
 #: src/modules/navigation/hooks/useMobileNavigationBarItems.ts
 msgid "Home"
 msgstr "Home"
@@ -9981,6 +9858,11 @@ msgstr "Come funzionano i crediti"
 #: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 msgid "How records, pages, and navigation are displayed"
 msgstr "Come vengono visualizzati i record, le pagine e la navigazione"
+
+#. js-lingui-id: J+8dhC
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "How to use"
+msgstr ""
 
 #. js-lingui-id: e60vNl
 #: src/pages/onboarding/CreateProfile.tsx
@@ -10116,6 +9998,11 @@ msgstr "Icona e nome"
 msgid "ID"
 msgstr "ID"
 
+#. js-lingui-id: ZR/eJm
+#: src/pages/lead-generation/LeadGeneration.tsx
+msgid "Ideal Customer Profile"
+msgstr ""
+
 #. js-lingui-id: 06cbfQ
 #: src/modules/settings/security/components/SSO/SettingsSSOOIDCForm.tsx
 msgid "Identity Provider"
@@ -10145,6 +10032,11 @@ msgstr "Se questa email è registrata, è stato inviato un link per reimpostare 
 #: src/modules/object-record/record-table/empty-state/components/RecordTableEmptyStateRemote.tsx
 msgid "If this is unexpected, please verify your settings."
 msgstr "Se non è previsto, verifica le tue impostazioni."
+
+#. js-lingui-id: S6hZt8
+#: src/pages/settings/enterprise/SettingsEnterprise.tsx
+msgid "If you have a signed enterprise key, enter it below to activate advanced features. This is optional — all enterprise features are free in this build."
+msgstr ""
 
 #. js-lingui-id: Yn4NZ1
 #: src/pages/settings/applications/tabs/SettingsApplicationRegistrationOAuthTab.tsx
@@ -10283,20 +10175,27 @@ msgstr "Importa tutte le email"
 msgid "Import CSV"
 msgstr "Importa CSV"
 
+#. js-lingui-id: t47SbP
+#: src/pages/lead-generation/components/LeadSourcesPanel.tsx
+msgid "Import failed. No leads were added."
+msgstr ""
+
 #. js-lingui-id: D5QSQM
 #: src/modules/settings/accounts/components/SettingsAccountsMessageFolderCard.tsx
 msgid "Import only selected folders/labels"
 msgstr "Importa solo cartelle/etichette selezionate"
 
-#. js-lingui-id: C9y8dR
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Import or add the MCP configuration from JetBrains settings."
-msgstr "Importa o aggiungi la configurazione MCP dalle impostazioni di JetBrains."
-
 #. js-lingui-id: vXTVX9
 #: src/pages/onboarding/ImportContacts.tsx
 msgid "Import your contacts"
 msgstr "Importa i tuoi contatti"
+
+#. js-lingui-id: RGahJi
+#. placeholder {0}: created === 1 ? '' : 's'
+#. placeholder {1}: failed > 0 ? ` · ${failed} failed` : ''
+#: src/pages/lead-generation/components/LeadSourcesPanel.tsx
+msgid "Imported {created} lead{0} to Companies{1}."
+msgstr ""
 
 #. js-lingui-id: wsKZ+v
 #: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
@@ -10313,6 +10212,11 @@ msgstr "Importazione"
 #: src/modules/spreadsheet-import/steps/components/ImportDataStep.tsx
 msgid "Importing Data ..."
 msgstr "Importazione dati ..."
+
+#. js-lingui-id: hdsaJo
+#: src/pages/lead-generation/components/LeadSourcesPanel.tsx
+msgid "Importing..."
+msgstr ""
 
 #. js-lingui-id: HiyKEP
 #: src/modules/settings/developers/utils/formatExpiration.ts
@@ -10358,7 +10262,6 @@ msgstr "Incluso"
 
 #. js-lingui-id: mtGDyy
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "Incomplete"
 msgstr "Incompleto"
 
@@ -10487,11 +10390,6 @@ msgstr "Inserisci i dettagli di fatturazione per ottenere una prova gratuita e p
 
 #. js-lingui-id: TKQ7K+
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
 #: src/pages/onboarding/InstallAppsContent.tsx
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationShareLinkButtons.tsx
 #: src/pages/settings/applications/tabs/SettingsApplicationDetailAboutTab.tsx
@@ -10508,15 +10406,6 @@ msgstr "Installa {appDisplayName} nel tuo spazio di lavoro"
 msgid "Install and manage applications"
 msgstr "Installa e gestisci applicazioni"
 
-#. js-lingui-id: 0RAaKu
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Install link"
-msgstr "Link di installazione"
-
 #. js-lingui-id: K8iwJx
 #: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
 msgid "Install shared tarball app"
@@ -10526,11 +10415,6 @@ msgstr "Installa app da tarball condiviso"
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationGeneralStats.tsx
 msgid "Install Stats"
 msgstr "Statistiche di installazione"
-
-#. js-lingui-id: lD6WqE
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Install the remote MCP server into a VS Code profile."
-msgstr "Installa il server MCP remoto in un profilo VS Code."
 
 #. js-lingui-id: jiSy0s
 #: src/pages/onboarding/InstallAppsContent.tsx
@@ -10673,6 +10557,11 @@ msgstr "Email o dominio non valido"
 msgid "Invalid email verification link."
 msgstr "Link di verifica email non valido."
 
+#. js-lingui-id: KPeOkh
+#: src/pages/settings/enterprise/SettingsEnterprise.tsx
+msgid "Invalid enterprise key. Please check your key or contact support."
+msgstr ""
+
 #. js-lingui-id: 4D6/HO
 #. placeholder {0}: samlMetadataParsed.reason
 #: src/modules/settings/security/components/SSO/SettingsSSOSAMLForm.tsx
@@ -10740,11 +10629,6 @@ msgstr "Invita"
 #: src/pages/settings/members/tabs/SettingsWorkspaceMembersInviteTab.tsx
 msgid "Invite by email"
 msgstr "Invita via e-mail"
-
-#. js-lingui-id: PWIq/W
-#: src/pages/settings/members/tabs/SettingsWorkspaceMembersInviteTab.tsx
-msgid "Invite by link"
-msgstr "Invita tramite link"
 
 #. js-lingui-id: 3athPG
 #: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
@@ -10921,11 +10805,6 @@ msgstr "Jane Doe"
 msgid "Japanese"
 msgstr "Giapponese"
 
-#. js-lingui-id: 6K6XSi
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "JetBrains AI / Junie"
-msgstr "JetBrains AI / Junie"
-
 #. js-lingui-id: FVzmEZ
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminQueueJobRowDropdownMenu.tsx
 msgid "Job Actions"
@@ -10967,11 +10846,6 @@ msgstr "john.doe"
 #: src/modules/settings/accounts/components/SettingsAccountsConnectionForm.tsx
 msgid "john.doe@example.com"
 msgstr "john.doe@example.com"
-
-#. js-lingui-id: fSPjtl
-#: src/pages/auth/SignInUp.tsx
-msgid "Join {workspaceName} team"
-msgstr "Unisciti al team {workspaceName}"
 
 #. js-lingui-id: 31TuIx
 #: src/pages/settings/community/SettingsCommunity.tsx
@@ -11042,11 +10916,6 @@ msgstr "ID chiave"
 #: src/modules/settings/admin-panel/signing-keys/components/SettingsAdminSigningKeysTable.tsx
 msgid "Key ID copied"
 msgstr "ID chiave copiato"
-
-#. js-lingui-id: aOedjo
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Key in use on another server"
-msgstr "Chiave in uso su un altro server"
 
 #. js-lingui-id: VOAmkS
 #: src/modules/workflow/workflow-steps/workflow-actions/http-request-action/components/BodyInput.tsx
@@ -11380,6 +11249,18 @@ msgstr "Modalità layout: {0}"
 msgid "Layouts"
 msgstr "Disposizioni"
 
+#. js-lingui-id: PYFoFo
+#: src/modules/navigation/components/NavigationDrawerOtherSection.tsx
+#: src/pages/lead-generation/LeadGeneration.tsx
+#: src/pages/lead-generation/LeadGeneration.tsx
+msgid "Lead Generation"
+msgstr ""
+
+#. js-lingui-id: 51TASj
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Lead Generation → \"15 Free Sources\" shows one Web Agents card per enabled agent. In Ask AI, say \"use my web agent to find leads for …\"."
+msgstr ""
+
 #. js-lingui-id: zwWKhA
 #: src/modules/information-banner/components/maintenance/InformationBannerMaintenance.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/form-action/components/WorkflowEditActionFormBuilder.tsx
@@ -11478,17 +11359,6 @@ msgstr "Spaziatura tra le lettere"
 #: src/modules/settings/event-logs/utils/getColumnsForEventLogTable.tsx
 msgid "Level"
 msgstr "Livello"
-
-#. js-lingui-id: NaBPMD
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "LibreChat"
-msgstr "LibreChat"
-
-#. js-lingui-id: 3qg5Ro
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Licensee"
-msgstr "Titolare della licenza"
 
 #. js-lingui-id: 1njn7W
 #: src/modules/ui/navigation/navigation-drawer/components/MultiWorkspaceDropdown/internal/MultiWorkspaceDropdownThemesComponents.tsx
@@ -11639,11 +11509,6 @@ msgstr "Annunci"
 msgid "Live URL"
 msgstr "URL live"
 
-#. js-lingui-id: ufrtI9
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "LM Studio"
-msgstr "LM Studio"
-
 #. js-lingui-id: eg8PJK
 #: src/modules/workflow/workflow-steps/workflow-actions/pick-record-action/components/WorkflowEditActionPickRecord.tsx
 msgid "Load balanced"
@@ -11728,6 +11593,11 @@ msgstr "Caricamento configurazione di retention..."
 msgid "Loading skills..."
 msgstr "Caricamento abilità..."
 
+#. js-lingui-id: +SvKbm
+#: src/pages/lead-generation/components/LeadSourcesPanel.tsx
+msgid "Loading sources..."
+msgstr ""
+
 #. js-lingui-id: 7YK6ap
 #: src/modules/page-layout/widgets/email-thread/components/EmailThreadWidget.tsx
 msgid "Loading thread"
@@ -11768,16 +11638,9 @@ msgstr "Registra una nuova trattativa (azienda, importo, fase, chiusura prevista
 #. js-lingui-id: FgAxTj
 #: src/modules/auth/sign-in-up/components/WorkspaceSelectionFooter.tsx
 #: src/modules/onboarding/components/upgrade-free-trial/ChooseYourPlanErrorState.tsx
-#: src/modules/settings/profile/devices/components/SettingsDeviceSessionRowDropdownMenu.tsx
-#: src/modules/ui/navigation/navigation-drawer/components/MultiWorkspaceDropdown/internal/MultiWorkspaceDropdownDefaultComponents.tsx
 #: src/pages/onboarding/UpgradeFreeTrial.tsx
 msgid "Log out"
 msgstr "Disconnetti"
-
-#. js-lingui-id: 3guYwv
-#: src/modules/settings/profile/devices/components/SettingsProfileDevicesSection.tsx
-msgid "Log out all other devices"
-msgstr "Disconnetti tutti gli altri dispositivi"
 
 #. js-lingui-id: qakNlV
 #: src/modules/settings/security/components/SettingsSecuritySettings.tsx
@@ -11823,11 +11686,6 @@ msgstr "Funzioni logiche"
 #: src/modules/auth/components/TwoFactorAuthenticationProvisionEffect.tsx
 msgid "Login token missing. Two Factor Authentication setup can not be initiated."
 msgstr "Token di accesso mancante. Non è possibile avviare la configurazione dell'autenticazione a due fattori."
-
-#. js-lingui-id: nOhz3x
-#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
-msgid "Logout"
-msgstr "Disconnessione"
 
 #. js-lingui-id: w/bY7R
 #: src/modules/logic-functions/components/LogicFunctionLogs.tsx
@@ -11905,8 +11763,6 @@ msgstr "Gestisci fatturazione e abbonamenti"
 
 #. js-lingui-id: nvgUPq
 #: src/modules/settings/billing/components/SettingsBillingContent.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "Manage billing information"
 msgstr "Gestisci le informazioni di fatturazione"
 
@@ -11992,9 +11848,6 @@ msgid "Managed"
 msgstr "Gestito"
 
 #. js-lingui-id: BWTzAb
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
 #: src/modules/side-panel/pages/page-layout/hooks/useGraphGroupBySortOptionLabels.ts
 #: src/modules/side-panel/pages/page-layout/hooks/useGraphXSortOptionLabels.ts
 msgid "Manual"
@@ -13062,11 +12915,6 @@ msgstr "Nessun agente disponibile"
 msgid "No agents match your search"
 msgstr "Nessun agente corrisponde alla tua ricerca"
 
-#. js-lingui-id: nPalt1
-#: src/pages/settings/ai/SettingsAiUsageUserDetail.tsx
-msgid "No AI consumption recorded for this user."
-msgstr "Nessun consumo dell'IA registrato per questo utente."
-
 #. js-lingui-id: 1GMOHe
 #: src/modules/ai/components/AiChatEditorSection.tsx
 #: src/modules/ai/hooks/useAgentChat.ts
@@ -13213,11 +13061,6 @@ msgstr "Nessun paese"
 #: src/modules/settings/admin-panel/ai/components/SettingsAdminAiProviderListCard.tsx
 msgid "No credentials"
 msgstr "Nessuna credenziale"
-
-#. js-lingui-id: FoID5n
-#: src/pages/settings/billing/SettingsUsageUserDetail.tsx
-msgid "No credit consumption recorded for this user."
-msgstr "Nessun consumo di crediti registrato per questo utente."
 
 #. js-lingui-id: kxH3HO
 #: src/modules/object-record/record-field/ui/form-types/components/FormCurrencyFieldInput.tsx
@@ -13393,6 +13236,11 @@ msgstr "Nessun lavoro è stato eliminato{errorDetails}"
 #: src/modules/settings/admin-panel/health-status/hooks/useRetryJobs.ts
 msgid "No jobs were retried{errorDetails}"
 msgstr "Nessun lavoro è stato riprovato{errorDetails}"
+
+#. js-lingui-id: jiZKjV
+#: src/pages/settings/web-search-apis/WebSearchApisSettings.tsx
+msgid "No keys saved yet — add one below."
+msgstr ""
 
 #. js-lingui-id: OcMef3
 #: src/modules/settings/admin-panel/components/SettingsAdminVersionContainer.tsx
@@ -13700,12 +13548,6 @@ msgstr "Nessun trigger è abilitato. Attiva una delle opzioni sopra per sceglier
 msgid "No unsubscribers found"
 msgstr "Nessun disiscritto trovato"
 
-#. js-lingui-id: WwlPOG
-#: src/pages/settings/ai/SettingsAiUsageUserDetail.tsx
-#: src/pages/settings/billing/SettingsUsageUserDetail.tsx
-msgid "No usage data"
-msgstr "Nessun dato di utilizzo"
-
 #. js-lingui-id: YrBAQE
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
 msgid "No usage data is available for this workspace."
@@ -13765,6 +13607,11 @@ msgstr "Nessuna variabile da impostare per questa applicazione"
 #: src/pages/settings/applications/tabs/SettingsApplicationsAvailableTab.tsx
 msgid "No vetted applications found. {0} non-vetted result(s) available — "
 msgstr "Nessuna applicazione verificata trovata. {0} risultati non verificati disponibili — "
+
+#. js-lingui-id: wvxvD1
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "No web agents yet — register one below."
+msgstr ""
 
 #. js-lingui-id: 0uWxPM
 #: src/modules/object-record/record-table/empty-state/utils/getEmptyStateTitle.ts
@@ -13924,6 +13771,11 @@ msgstr "Non condiviso da {notSharedByFullName}"
 #: src/modules/settings/accounts/components/SettingsAccountsConnectedAccountsRowRightContainer.tsx
 msgid "Not synced"
 msgstr "Non sincronizzato"
+
+#. js-lingui-id: 2GFuxJ
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Not tested yet"
+msgstr ""
 
 #. js-lingui-id: VngD1z
 #: src/pages/settings/applications/SettingsApplicationDetails.tsx
@@ -14254,11 +14106,6 @@ msgstr "Ricompensa di onboarding"
 msgid "One or more filters reference deactivated or deleted fields and will be automatically removed on save."
 msgstr "Uno o più filtri fanno riferimento a campi disattivati o eliminati e verranno rimossi automaticamente al salvataggio."
 
-#. js-lingui-id: 2l4SGU
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "One subscription provides one enterprise key that powers one production instance and one potential staging or test instance. To run a staging or test environment, install Twenty on a second server, activate it with this same enterprise key, then register that server as a development instance. Development instances unlock enterprise features without extra billing and do not count toward your production seats."
-msgstr "Un abbonamento fornisce una chiave Enterprise che alimenta un’istanza di produzione e una possibile istanza di staging o test. Per eseguire un ambiente di staging o test, installa Twenty su un secondo server, attivalo con la stessa chiave Enterprise, quindi registra quel server come istanza di sviluppo. Le istanze di sviluppo sbloccano le funzionalità Enterprise senza costi aggiuntivi e non sono conteggiate nei posti in produzione."
-
 #. js-lingui-id: oFTo3P
 #: src/modules/settings/event-logs/components/SettingsLogs.tsx
 msgid "Only application logs are available on your current plan. Other log types require an Enterprise subscription."
@@ -14350,15 +14197,10 @@ msgstr "Apri un editor di email per modificare le impostazioni del blocco."
 msgid "Open as link"
 msgstr "Apri come link"
 
-#. js-lingui-id: n0vVgf
+#. js-lingui-id: KeZEjU
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Claude with the Twenty connector name and MCP URL prefilled."
-msgstr "Apri Claude con il nome del connettore Twenty e l’URL MCP precompilati."
-
-#. js-lingui-id: +n2jpB
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Cursor's MCP installer with the Twenty remote server config."
-msgstr "Apri il programma di installazione MCP di Cursor con la configurazione del server remoto Twenty."
+msgid "Open Claude with the OS20 connector name and MCP URL prefilled."
+msgstr ""
 
 #. js-lingui-id: pZZH4Q
 #: src/modules/auth/sign-in-up/components/EmailVerificationSent.tsx
@@ -14374,6 +14216,11 @@ msgstr "Apri nell'app"
 #: src/modules/settings/members/components/MemberPermissionsTab.tsx
 msgid "Open in Roles"
 msgstr "Apri in Ruoli"
+
+#. js-lingui-id: JsC6qX
+#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
+msgid "Open OS20's official ChatGPT integration for your workspace."
+msgstr ""
 
 #. js-lingui-id: xGd6Ih
 #: src/modules/auth/sign-in-up/components/EmailVerificationSent.tsx
@@ -14396,16 +14243,6 @@ msgstr "Apri i record accanto alla pagina corrente"
 #: src/modules/settings/experience/components/OpenRecordInPreferencePicker.tsx
 msgid "Open records on a dedicated page"
 msgstr "Apri i record in una pagina dedicata"
-
-#. js-lingui-id: q170S2
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Replit with the Twenty remote server config."
-msgstr "Apri Replit con la configurazione del server remoto Twenty."
-
-#. js-lingui-id: sBd/cl
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Twenty's official ChatGPT integration for your workspace."
-msgstr "Apri l’integrazione ChatGPT ufficiale di Twenty per il tuo spazio di lavoro."
 
 #. js-lingui-id: OV5wZZ
 #: src/modules/navigation-menu-item/display/sections/components/NavigationDrawerOpenedSection.tsx
@@ -14533,11 +14370,6 @@ msgstr "Organizza"
 #: src/pages/settings/community/SettingsCommunity.tsx
 msgid "Other"
 msgstr "Altro"
-
-#. js-lingui-id: Rq/8BA
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Other clients"
-msgstr "Altri client"
 
 #. js-lingui-id: ggOXu2
 #: src/modules/settings/data-model/objects/components/SettingsDataModelObjectSummary.tsx
@@ -14705,10 +14537,10 @@ msgstr "Layout di pagina"
 msgid "Page name"
 msgstr "Nome pagina"
 
-#. js-lingui-id: NRvxzv
+#. js-lingui-id: 5yMtQZ
 #: src/pages/not-found/NotFound.tsx
-msgid "Page Not Found | Twenty"
-msgstr "Pagina non trovata | Twenty"
+msgid "Page Not Found | OS20"
+msgstr ""
 
 #. js-lingui-id: oIhFvf
 #: src/modules/side-panel/pages/email-block-settings/components/EmailPageStyleSection.tsx
@@ -14779,15 +14611,15 @@ msgstr "In ritardo"
 msgid "Paste a link to a hosted image"
 msgstr "Incolla un link a un’immagine ospitata"
 
+#. js-lingui-id: DSKTi3
+#: src/pages/settings/web-search-apis/WebSearchApisSettings.tsx
+msgid "Paste the API keys from the web search services you use (e.g. Bing, Brave, SerpAPI, Tavily). Keys are encrypted and stored in your workspace."
+msgstr ""
+
 #. js-lingui-id: cpStVq
 #: src/modules/auth/sign-in-up/components/internal/SignInUpTwoFactorAuthenticationVerification.tsx
 msgid "Paste the code below"
 msgstr "Incolla il codice qui sotto"
-
-#. js-lingui-id: CCNkDk
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Paste your enterprise key below to activate. Keep a copy of this key somewhere safe: the same key is reused to set up a development instance or to move your license to a replacement server."
-msgstr "Incolla qui sotto la tua chiave Enterprise per attivare. Conserva una copia di questa chiave in un luogo sicuro: la stessa chiave viene riutilizzata per impostare un’istanza di sviluppo o per spostare la licenza su un server sostitutivo."
 
 #. js-lingui-id: dNdgvF
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
@@ -14808,11 +14640,6 @@ msgstr "Pausa"
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
 msgid "Paused"
 msgstr "In pausa"
-
-#. js-lingui-id: QmXBEc
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Payment issue"
-msgstr "Problema di pagamento"
 
 #. js-lingui-id: CcK+Ft
 #: src/pages/settings/admin-panel/SettingsAdminNewAiModel.tsx
@@ -14835,16 +14662,6 @@ msgstr "Persone a cui hai inviato email e da cui hai ricevuto email."
 #: src/modules/settings/accounts/components/SettingsAccountsMessageAutoCreationCard.tsx
 msgid "People I’ve sent emails to."
 msgstr "Persone a cui hai inviato email."
-
-#. js-lingui-id: qMTN0w
-#: src/pages/settings/ai/SettingsAiUsageUserDetail.tsx
-msgid "Per-day AI consumption."
-msgstr "Consumo giornaliero dell'IA."
-
-#. js-lingui-id: i9iYjM
-#: src/pages/settings/billing/SettingsUsageUserDetail.tsx
-msgid "Per-day credit consumption."
-msgstr "Consumo di crediti giornaliero."
 
 #. js-lingui-id: SrVzRe
 #: src/modules/object-record/record-group/components/RecordGroupAggregateDropdownContent.tsx
@@ -14946,6 +14763,11 @@ msgstr "Numero di telefono copiato negli appunti"
 #: src/modules/workflow/workflow-variables/components/WorkflowVariablesDropdownStepItems.tsx
 msgid "Pick a {objectLabel} record"
 msgstr "Seleziona un record di {objectLabel}"
+
+#. js-lingui-id: 6MsIdU
+#: src/pages/lead-generation/LeadGeneration.tsx
+msgid "Pick a free source and search real platforms for companies and contacts. Add them to your CRM with one click."
+msgstr ""
 
 #. js-lingui-id: JqqNlC
 #: src/modules/side-panel/utils/getSidePanelSubPageTitle.ts
@@ -15523,11 +15345,6 @@ msgstr "HTML grezzo incorporato nel documento"
 msgid "Raw JSON"
 msgstr "JSON grezzo"
 
-#. js-lingui-id: n/YqqB
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Raycast"
-msgstr "Raycast"
-
 #. js-lingui-id: 549d7o
 #: src/pages/settings/community/SettingsCommunity.tsx
 msgid "Read changelog"
@@ -15838,15 +15655,15 @@ msgstr "La regione è obbligatoria per Bedrock"
 msgid "Region where inference data is processed (optional)"
 msgstr "Regione in cui vengono elaborati i dati di inferenza (opzionale)"
 
-#. js-lingui-id: E1qk3l
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Register as development instance"
-msgstr "Registrati come istanza di sviluppo"
+#. js-lingui-id: rWTyPT
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Register an agent"
+msgstr ""
 
-#. js-lingui-id: ARGZDy
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Registered as a development instance. This instance will not be billed."
-msgstr "Registrato come istanza di sviluppo. Questa istanza non verrà fatturata."
+#. js-lingui-id: SnCn74
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Register external agent services. Once connected, each enabled agent appears as a source in Lead Generation and as a lead-fetch tool in Ask AI."
+msgstr ""
 
 #. js-lingui-id: h9AYFD
 #: src/modules/settings/data-model/fields/forms/components/SettingsObjectNewFieldSelector.tsx
@@ -15878,21 +15695,6 @@ msgstr "Le relazioni non possono includere l'oggetto di origine quando sono sele
 msgid "Relative"
 msgstr "Relativo"
 
-#. js-lingui-id: R/mKm6
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Release & transfer"
-msgstr "Rilascia e trasferisci"
-
-#. js-lingui-id: nTAq7c
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Release & transfer enterprise key"
-msgstr "Rilascia e trasferisci la chiave Enterprise"
-
-#. js-lingui-id: PYZeGT
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Release & transfer to this server"
-msgstr "Rilascia e trasferisci a questo server"
-
 #. js-lingui-id: HpK/8d
 #: src/modules/error-handler/components/AppRootErrorFallback.tsx
 #: src/modules/error-handler/components/internal/AppErrorDisplay.tsx
@@ -15900,16 +15702,6 @@ msgstr "Rilascia e trasferisci a questo server"
 #: src/modules/settings/domains/components/SettingsCustomDomain.tsx
 msgid "Reload"
 msgstr "Ricarica"
-
-#. js-lingui-id: qbM5In
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Reload validity token"
-msgstr "Ricarica il token di validità"
-
-#. js-lingui-id: MZWnSC
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Reloading..."
-msgstr "Ricaricamento in corso..."
 
 #. js-lingui-id: qlAIQ1
 #: src/modules/settings/components/SettingsItemTypeTag.tsx
@@ -16105,16 +15897,6 @@ msgstr "Sostituisci widget"
 #: src/modules/settings/admin-panel/chats/components/SettingsAdminChatsTable.tsx
 msgid "Replies"
 msgstr "Risposte"
-
-#. js-lingui-id: uFEgGd
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Replit Agent"
-msgstr "Replit Agent"
-
-#. js-lingui-id: 6vFykI
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Replit install links require an HTTPS MCP URL."
-msgstr "I link di installazione Replit richiedono un URL MCP HTTPS."
 
 #. js-lingui-id: ImOQa9
 #: src/modules/activities/emails/components/EmailThreadBottomBar.tsx
@@ -16602,6 +16384,11 @@ msgstr "Risparmia il 25% se fatturato annualmente"
 msgid "Save as new view"
 msgstr "Salva come nuova vista"
 
+#. js-lingui-id: gwwstN
+#: src/pages/settings/web-search-apis/WebSearchApisSettings.tsx
+msgid "Save key"
+msgstr ""
+
 #. js-lingui-id: 7byqGp
 #: src/modules/layout-customization/hooks/useEnterLayoutCustomizationMode.ts
 msgid "Save or cancel dashboard changes before editing the layout."
@@ -16686,6 +16473,7 @@ msgstr "SDK"
 #: src/modules/ui/layout/dropdown/components/DropdownMenuSearchInput.tsx
 #: src/modules/ui/navigation/navigation-drawer/components/MultiWorkspaceDropdown/internal/MultiWorkspaceDropdownWorkspacesListComponents.tsx
 #: src/modules/ui/navigation/navigation-drawer/components/NavigationDrawerHeader.tsx
+#: src/pages/lead-generation/components/LeadSourcesPanel.tsx
 msgid "Search"
 msgstr "Cerca"
 
@@ -16865,6 +16653,16 @@ msgstr "Cerca paese"
 msgid "Search currency"
 msgstr "Cerca valuta"
 
+#. js-lingui-id: pkAft1
+#: src/pages/lead-generation/components/LeadSourcesPanel.tsx
+msgid "Search failed."
+msgstr ""
+
+#. js-lingui-id: flnr8C
+#: src/pages/lead-generation/components/LeadSourcesPanel.tsx
+msgid "Search failed. Check your connection and retry."
+msgstr ""
+
 #. js-lingui-id: AHePb2
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
 msgid "search field metadata"
@@ -16978,6 +16776,11 @@ msgstr "Ricerca sul web in corso"
 #: src/modules/ai/utils/tool-display/get-tool-display-message.ts
 msgid "Searching the web for {query}"
 msgstr "Ricerca sul web di {query} in corso"
+
+#. js-lingui-id: Du+zn+
+#: src/pages/lead-generation/components/LeadSourcesPanel.tsx
+msgid "Searching..."
+msgstr ""
 
 #. js-lingui-id: Y00a9G
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
@@ -17494,6 +17297,11 @@ msgstr "Variabili del server"
 msgid "Server variables are applied to all workspace installations."
 msgstr "Le variabili del server vengono applicate a tutte le installazioni dello spazio di lavoro."
 
+#. js-lingui-id: KxIKTT
+#: src/pages/settings/web-search-apis/WebSearchApisSettings.tsx
+msgid "Service / provider (e.g. firecrawl, tavily, brave, serpapi)"
+msgstr ""
+
 #. js-lingui-id: LUc0oL
 #: src/modules/settings/security/components/SSO/SettingsSSOSAMLForm.tsx
 msgid "Service Provider Details"
@@ -17592,10 +17400,6 @@ msgstr "Configurazione del tuo <0>database</0>..."
 #: src/modules/navigation/components/SettingsNavigationDrawer.tsx
 #: src/modules/object-record/record-merge/hooks/useMergeRecordsContainerTabs.ts
 #: src/modules/settings/accounts/components/SettingsAccountsSettingsSection.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
 #: src/modules/settings/roles/role-permissions/permission-flags/components/SettingsRolePermissionsSettingsSection.tsx
 #: src/modules/settings/roles/role/components/SettingsRole.tsx
 #: src/modules/side-panel/pages/page-layout/components/dashboard/SidePanelDashboardRecordTableSettings.tsx
@@ -17635,11 +17439,6 @@ msgstr "chiave di configurazione"
 msgid "Setup key copied to clipboard"
 msgstr "Chiave di configurazione copiata negli appunti"
 
-#. js-lingui-id: NQNJjc
-#: src/pages/auth/SignInUp.tsx
-msgid "Setup your 2FA"
-msgstr "Configura il tuo 2FA"
-
 #. js-lingui-id: dsCM1m
 #: src/modules/object-record/record-merge/utils/getPositionWordLabel.ts
 msgid "Seventh"
@@ -17649,11 +17448,6 @@ msgstr "Settimo"
 #: src/modules/activities/emails/components/EmailThreadBottomBar.tsx
 msgid "Share"
 msgstr "Condividi"
-
-#. js-lingui-id: Vy9kmk
-#: src/pages/settings/members/tabs/SettingsWorkspaceMembersInviteTab.tsx
-msgid "Share this link to invite users to join your workspace"
-msgstr "Condividi questo link per invitare gli utenti a unirsi al tuo workspace"
 
 #. js-lingui-id: bM7Rp3
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
@@ -17774,11 +17568,6 @@ msgstr "Elementi della barra laterale"
 #: src/modules/auth/sign-in-up/components/internal/SignInUpWithCredentials.tsx
 msgid "Sign in"
 msgstr "Accedi"
-
-#. js-lingui-id: Vt3mQ2
-#: src/utils/title-utils.ts
-msgid "Sign in or Create an account"
-msgstr "Accedi o Crea un account"
 
 #. js-lingui-id: e+RpCP
 #: src/modules/auth/sign-in-up/components/internal/SignInUpWithCredentials.tsx
@@ -18169,16 +17958,6 @@ msgstr "Fasi"
 msgid "Standard"
 msgstr "Standard"
 
-#. js-lingui-id: ASqWQi
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Start a new enterprise subscription to re-enable enterprise features."
-msgstr "Avvia un nuovo abbonamento Enterprise per riattivare le funzionalità Enterprise."
-
-#. js-lingui-id: OC6rnK
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Start a new enterprise subscription."
-msgstr "Avvia un nuovo abbonamento Enterprise."
-
 #. js-lingui-id: WAjFYI
 #: src/modules/settings/admin-panel/health-status/maintenance-mode/components/SettingsAdminMaintenanceMode.tsx
 #: src/modules/settings/event-logs/components/EventLogFilters.tsx
@@ -18239,11 +18018,6 @@ msgstr "Stato"
 #: src/pages/settings/admin-panel/SettingsAdminWorkspaceDetail.tsx
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
 #: src/pages/settings/applications/tabs/SettingsApplicationConnectionsSection.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "Status"
 msgstr "Stato"
 
@@ -18331,10 +18105,10 @@ msgstr "Sotto-campi"
 msgid "Subdomain"
 msgstr "Sottodominio"
 
-#. js-lingui-id: Sv4BSp
+#. js-lingui-id: NReSbp
 #: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
-msgid "Subdomain (yourco.twenty.com)"
-msgstr "Sottodominio (yourco.twenty.com)"
+msgid "Subdomain (yourco.os20.xyz)"
+msgstr ""
 
 #. js-lingui-id: mGO3xy
 #: src/modules/auth/sign-in-up/components/internal/SignInUpWorkspaceCreationForm.tsx
@@ -18425,13 +18199,13 @@ msgstr "Abbonamento"
 msgid "Subscription activated."
 msgstr "Abbonamento attivato."
 
-#. js-lingui-id: 0okvpx
+#. js-lingui-id: YYd6wi
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
-msgid "Subscription error. Please retry or contact Twenty team"
-msgstr "Errore di abbonamento. Riprova o contatta il team di Twenty"
+msgid "Subscription error. Please retry or contact OS20 team"
+msgstr ""
 
 #. js-lingui-id: FooJUj
 #. placeholder {0}: getTargetPlanLabel(targetPlanKey)
@@ -18538,21 +18312,11 @@ msgstr "Svedese"
 msgid "Switch to Pro"
 msgstr "Passa al Pro"
 
-#. js-lingui-id: 13a+Fq
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Switch to production instance"
-msgstr "Passa all'istanza di produzione"
-
 #. js-lingui-id: 1EwZPZ
 #: src/modules/settings/billing/components/internal/SettingsBillingSubscriptionInfoCard.tsx
 #: src/modules/settings/billing/components/internal/SettingsBillingSubscriptionInfoCard.tsx
 msgid "Switch to yearly"
 msgstr "Passa all'annuale"
-
-#. js-lingui-id: QfzgpH
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Switched to a production instance."
-msgstr "Passato a un'istanza di produzione."
 
 #. js-lingui-id: avDJC3
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useActionRolePermissionFlagConfig.ts
@@ -18744,6 +18508,11 @@ msgstr "Team"
 msgid "Team member"
 msgstr "Membro del team"
 
+#. js-lingui-id: 9sWPJA
+#: src/pages/lead-generation/LeadGeneration.tsx
+msgid "Tell us who you're looking for."
+msgstr ""
+
 #. js-lingui-id: lKXcJz
 #: src/pages/settings/emailing-domains/utils/getEmailingDomainStatusText.ts
 msgid "Temporary Failure"
@@ -18769,6 +18538,7 @@ msgstr "Termini di servizio"
 #: src/modules/workflow/workflow-steps/workflow-actions/logic-function-action/components/WorkflowEditActionLogicFunction.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/logic-function-action/components/WorkflowEditActionLogicFunction.tsx
 #: src/pages/settings/logic-functions/SettingsLogicFunctionDetail.tsx
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
 msgid "Test"
 msgstr "Test"
 
@@ -18782,6 +18552,11 @@ msgstr "Email di prova inviata a {0}"
 #: src/modules/settings/logic-functions/components/tabs/SettingsLogicFunctionTestTab.tsx
 msgid "Test your function"
 msgstr "Testa la tua funzione"
+
+#. js-lingui-id: /QzoTB
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Tested but no /lead-fetch endpoint found"
+msgstr ""
 
 #. js-lingui-id: F0lHkW
 #: src/modules/advanced-text-editor/extensions/slash-command/DefaultSlashCommands.ts
@@ -18819,10 +18594,20 @@ msgstr "Testo copiato negli appunti"
 msgid "Text Editor"
 msgstr "Editor di testo"
 
+#. js-lingui-id: jTR2rW
+#: src/pages/auth/OS20SignedOut.tsx
+msgid "Thanks for using OS20. Redirecting to the CRM..."
+msgstr ""
+
 #. js-lingui-id: Z4WP0F
 #: src/modules/settings/accounts/components/SettingsAccountsNewEmailGroupChannel.tsx
 msgid "The address your workspace will send and receive email from (e.g. support@mycompany.com). Outbound sending requires the domain to be verified in Outbound Domains."
 msgstr "L'indirizzo da cui il tuo spazio di lavoro invierà e riceverà email (ad es. support@mycompany.com). L'invio in uscita richiede che il dominio sia verificato in Outbound Domains."
+
+#. js-lingui-id: bzUD1V
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "The agent must answer GET / with its capability and POST /lead-fetch with { leads }. Auth is a Bearer API key you choose here."
+msgstr ""
 
 #. js-lingui-id: oVH0Mt
 #: src/pages/settings/admin-panel/SettingsAdminNewAiProvider.tsx
@@ -18834,14 +18619,14 @@ msgstr "L'endpoint API per il tuo provider compatibile con OpenAI"
 msgid "The AWS region for Bedrock"
 msgstr "La regione AWS per Bedrock"
 
-#. js-lingui-id: HP7per
+#. js-lingui-id: MPcQqP
 #: src/pages/settings/applications/utils/getStandardApplicationDescription.ts
 msgid ""
-"The base data model every Twenty workspace runs on.\n"
+"The base data model every OS20 workspace runs on.\n"
 "\n"
 "#### What \"foundation\" means\n"
 "\n"
-"Every Twenty workspace starts with this set of objects. They define the shape of your CRM, including relationships, activity, and reporting. Everything else, including marketplace apps, AI agents, and custom objects, plugs into them.\n"
+"Every OS20 workspace starts with this set of objects. They define the shape of your CRM, including relationships, activity, and reporting. Everything else, including marketplace apps, AI agents, and custom objects, plugs into them.\n"
 "\n"
 "#### Included objects\n"
 "- **People & Companies**: contact and account records\n"
@@ -18849,55 +18634,25 @@ msgid ""
 "- **Notes & Tasks**: activity and follow-ups\n"
 "- **Workflows & Dashboards**: automation and reporting\n"
 "\n"
-"Remove this app and the rest of Twenty has nothing to hang off.\n"
+"Remove this app and the rest of OS20 has nothing to hang off.\n"
 "\n"
 "#### Build your own app\n"
 "\n"
-"Extend Twenty with your own objects, fields, logic functions, or AI skills. Scaffold a new app in one command:\n"
+"Extend OS20 with your own objects, fields, logic functions, or AI skills. Scaffold a new app in one command:\n"
 "\n"
 "```bash\n"
-"npx create-twenty-app@latest my-twenty-app\n"
+"npx create-os20-app@latest my-os20-app\n"
 "```\n"
 "\n"
 "Then inside the folder:\n"
 "\n"
 "```bash\n"
-"cd my-twenty-app\n"
-"yarn twenty dev\n"
+"cd my-os20-app\n"
+"yarn os20 dev\n"
 "```\n"
 "\n"
-"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [Getting Started guide](https://os20.xyz/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://os20.xyz/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
 msgstr ""
-"Il modello di dati di base su cui si basa ogni spazio di lavoro di Twenty.\n"
-"\n"
-"#### Cosa significa \"fondamenta\"\n"
-"\n"
-"Ogni spazio di lavoro di Twenty inizia con questo set di oggetti. Definiscono la struttura del tuo CRM, incluse relazioni, attività e reportistica. Tutto il resto, incluse le app del marketplace, gli agenti AI e gli oggetti personalizzati, si collega a essi.\n"
-"\n"
-"#### Oggetti inclusi\n"
-"- **Persone e aziende**: record di contatto e account\n"
-"- **Opportunità**: la tua pipeline di vendita\n"
-"- **Note e attività**: attività e follow-up\n"
-"- **Flussi di lavoro e dashboard**: automazione e reportistica\n"
-"\n"
-"Rimuovi questa app e il resto di Twenty non avrà più nulla a cui agganciarsi.\n"
-"\n"
-"#### Crea la tua app\n"
-"\n"
-"Estendi Twenty con i tuoi oggetti, campi, funzioni logiche o competenze AI. Imposta una nuova app con un solo comando:\n"
-"\n"
-"```bash\n"
-"npx create-twenty-app@latest my-twenty-app\n"
-"```\n"
-"\n"
-"Poi, all'interno della cartella:\n"
-"\n"
-"```bash\n"
-"cd my-twenty-app\n"
-"yarn twenty dev\n"
-"```\n"
-"\n"
-"Consulta la [Guida introduttiva](https://twenty.com/developers/extend/apps/getting-started) per il tour completo e [Creazione di app](https://twenty.com/developers/extend/apps/building) per le API `defineApplication` / `defineEntity`."
 
 #. js-lingui-id: VsxjzF
 #: src/modules/page-layout/widgets/call-recording-summary/components/CallRecordingSummaryBody.tsx
@@ -19101,11 +18856,6 @@ msgstr "Ci sono colonne richieste che non sono abbinate o ignorate. Vuoi continu
 msgid "There are still some rows that contain errors. Rows with errors will be ignored when submitting."
 msgstr "Ci sono ancora alcune righe che contengono errori. Le righe con errori verranno ignorate durante l'invio."
 
-#. js-lingui-id: CA9PTn
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "There is a payment issue with your subscription. Please update your payment method."
-msgstr "Si è verificato un problema di pagamento con il tuo abbonamento. Aggiorna il metodo di pagamento."
-
 #. js-lingui-id: WQk7Cf
 #: src/modules/activities/timeline-activities/components/TimelineCard.tsx
 msgid "There is no activity associated with this record."
@@ -19262,15 +19012,10 @@ msgstr "Questo valore del database sovrascrive le impostazioni dell'ambiente."
 msgid "This device"
 msgstr "Questo dispositivo"
 
-#. js-lingui-id: VQvoBA
+#. js-lingui-id: RICz5Y
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "This enterprise key is already bound to a different server instance. Releasing it here will transfer the license to this server and stop counting seats on the previous one."
-msgstr "Questa chiave Enterprise è già associata a un'altra istanza del server. Rilasciarla qui trasferirà la licenza a questo server e interromperà il conteggio dei posti sul precedente."
-
-#. js-lingui-id: kPBk2h
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "This enterprise key is currently bound to a different server instance. Transferring it here will release it from the previous server and stop counting seats on it. Are you sure you want to continue?"
-msgstr "Questa chiave Enterprise è attualmente associata a un'altra istanza del server. Trasferirla qui la rilascerà dal server precedente e interromperà il conteggio dei posti su di esso. Sei sicuro di voler continuare?"
+msgid "This enterprise key is already bound to another server. Please release it first or use a different key."
+msgstr ""
 
 #. js-lingui-id: 8IRnd6
 #: src/modules/settings/roles/role-permissions/object-level-permissions/record-level-permissions/components/SettingsRolePermissionsObjectLevelRecordLevelSection.tsx
@@ -19356,16 +19101,6 @@ msgstr "Questo ruolo è assegnato a questi {roleTargetDisplayName}."
 #: src/pages/settings/ai/components/SettingsAgentRoleTab.tsx
 msgid "This role is shared with other users or agents and cannot be edited here."
 msgstr ""
-
-#. js-lingui-id: 2iQQGR
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "This server has an enterprise key configured. Make sure you keep a copy of it somewhere safe: you need the same key to activate a development instance or to move your license to a replacement server. If you no longer have access to your key, contact support."
-msgstr "Su questo server è configurata una chiave Enterprise. Assicurati di conservarne una copia in un luogo sicuro: hai bisogno della stessa chiave per attivare un'istanza di sviluppo o per spostare la licenza su un server sostitutivo. Se non hai più accesso alla tua chiave, contatta l'assistenza."
-
-#. js-lingui-id: Gzd97S
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "This server is registered as a development instance and is not billed additionally. A subscription can have a single development instance in addition to its production one. Switching it back to a production instance will make its seats count toward billing."
-msgstr "Questo server è registrato come istanza di sviluppo e non comporta costi aggiuntivi. Un abbonamento può avere una singola istanza di sviluppo oltre alla propria istanza di produzione. Passando nuovamente a un'istanza di produzione, i suoi posti verranno conteggiati ai fini della fatturazione."
 
 #. js-lingui-id: C/wr0z
 #: src/modules/settings/admin-panel/config-variables/components/ConfigVariableHelpText.tsx
@@ -19797,11 +19532,6 @@ msgstr "Trasferisci"
 msgid "Transfer ownership"
 msgstr "Trasferisci proprietà"
 
-#. js-lingui-id: es+Zrf
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Transferring..."
-msgstr "Trasferimento in corso..."
-
 #. js-lingui-id: 0DTqrp
 #: src/modules/settings/data-model/object-details/components/SettingsUpdateDataModelObjectAboutForm.tsx
 msgid "Translate or rename?"
@@ -19817,8 +19547,6 @@ msgstr "Traduzioni"
 #. js-lingui-id: lhkaAC
 #: src/modules/settings/billing/components/internal/PlansTags.tsx
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "Trial"
 msgstr "Prova"
 
@@ -20304,11 +20032,6 @@ msgstr "Illimitato"
 msgid "Unlisted"
 msgstr "Non in elenco"
 
-#. js-lingui-id: Ep1uUU
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Unlock enterprise features like SSO, row-level security, and audit logs."
-msgstr "Sblocca funzionalità Enterprise come SSO, sicurezza a livello di riga e registri di controllo."
-
 #. js-lingui-id: Te2H8x
 #: src/modules/settings/developers/components/SettingsApiKeysFieldItemTableRow.tsx
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
@@ -20496,11 +20219,6 @@ msgstr "Aggiorna {contextStoreNumberOfSelectedRecords} record"
 msgid "Update payment"
 msgstr "Aggiorna pagamento"
 
-#. js-lingui-id: Y69tSP
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Update payment method"
-msgstr "Aggiorna il metodo di pagamento"
-
 #. js-lingui-id: tIoZo5
 #: src/modules/information-banner/components/billing/InformationBannerNoMoreCredits.tsx
 msgid "Update plan"
@@ -20559,12 +20277,6 @@ msgstr "{objectLabel} aggiornato"
 #: src/modules/ai/constants/crud-tool-operation-verbs.constant.ts
 msgid "Updating {objectLabel}"
 msgstr "Aggiornamento di {objectLabel}"
-
-#. js-lingui-id: RXbEvi
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Updating..."
-msgstr "Aggiornamento in corso..."
 
 #. js-lingui-id: kwkhPe
 #: src/modules/ai/components/AIChatNoMoreBillingCreditsBanner.tsx
@@ -20767,9 +20479,6 @@ msgstr "us-east-1"
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
 #: src/modules/settings/usage/components/UsageByUserTableSection.tsx
 #: src/pages/settings/ai/SettingsAI.tsx
-#: src/pages/settings/billing/SettingsUsage.tsx
-#: src/pages/settings/billing/SettingsUsage.tsx
-#: src/pages/settings/billing/SettingsUsageUserDetail.tsx
 msgid "Usage"
 msgstr "Utilizzo"
 
@@ -20796,7 +20505,6 @@ msgstr "Le statistiche di utilizzo verranno visualizzate qui non appena inizi a 
 
 #. js-lingui-id: 7vRxpC
 #: src/modules/settings/usage/components/SettingsUsageAnalyticsSection.tsx
-#: src/pages/settings/billing/SettingsUsageUserDetail.tsx
 msgid "Usage by Type"
 msgstr "Utilizzo per tipo"
 
@@ -20933,12 +20641,6 @@ msgstr "Utente non connesso"
 msgid "User roles"
 msgstr "Ruoli utente"
 
-#. js-lingui-id: 5r/Ozr
-#: src/pages/settings/billing/SettingsUsageUserDetail.tsx
-#: src/pages/settings/billing/SettingsUsageUserDetail.tsx
-msgid "User Usage"
-msgstr "Utilizzo dell'utente"
-
 #. js-lingui-id: Sxm8rQ
 #: src/modules/settings/admin-panel/components/SettingsAdminGeneral.tsx
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useSettingsRolePermissionFlagConfig.ts
@@ -20970,21 +20672,10 @@ msgstr "Utilizzando il valore predefinito dell'applicazione. Configura tramite v
 msgid "Using default value. Set a custom value to override."
 msgstr "Utilizzando il valore predefinito. Imposta un valore personalizzato per sovrascrivere."
 
-#. js-lingui-id: zzp4XX
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Valid until"
-msgstr "Valido fino al"
-
 #. js-lingui-id: Clr4qp
 #: src/modules/spreadsheet-import/steps/components/SpreadsheetImportStepperContainer.tsx
 msgid "Validate Data"
 msgstr "Convalida i dati"
-
-#. js-lingui-id: PWZBIT
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Validity token refreshed successfully"
-msgstr "Token di validità aggiornato correttamente"
 
 #. js-lingui-id: wMHvYH
 #: src/modules/settings/admin-panel/config-variables/components/ConfigVariableValueInput.tsx
@@ -21051,11 +20742,6 @@ msgstr "Verificato"
 #: src/utils/title-utils.ts
 msgid "Verify"
 msgstr "Verifica"
-
-#. js-lingui-id: IoglDq
-#: src/pages/auth/SignInUp.tsx
-msgid "Verify code from the app"
-msgstr "Verifica il codice dall'app"
 
 #. js-lingui-id: zS/rMV
 #: src/pages/settings/profile/SettingsTwoFactorAuthenticationMethod.tsx
@@ -21164,8 +20850,6 @@ msgstr ""
 
 #. js-lingui-id: KANz0G
 #: src/modules/settings/billing/components/SettingsBillingContent.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "View billing details"
 msgstr "Visualizza dettagli fatturazione"
 
@@ -21208,11 +20892,6 @@ msgstr "gruppo di filtri della vista"
 #: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
 msgid "view group"
 msgstr "gruppo vista"
-
-#. js-lingui-id: B02hom
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "View invoices"
-msgstr "Visualizza le fatture"
 
 #. js-lingui-id: lh5BED
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminWorkerQueueMetricsSection.tsx
@@ -21323,11 +21002,6 @@ msgstr "Visualizza"
 msgid "Visualize data model"
 msgstr "Visualizza il modello di dati"
 
-#. js-lingui-id: IEcsBR
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "VS Code"
-msgstr "VS Code"
-
 #. js-lingui-id: mVkP/D
 #: src/modules/ai/hooks/useSubmitQuestionAnswer.ts
 msgid "Wait for files to finish uploading before answering."
@@ -21362,11 +21036,6 @@ msgstr "Guida introduttiva"
 #: src/modules/ui/feedback/snack-bar-manager/components/SnackBar.tsx
 msgid "Warning"
 msgstr "Avviso"
-
-#. js-lingui-id: HUu++U
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Warp"
-msgstr "Warp"
 
 #. js-lingui-id: zFSQY3
 #: src/modules/activities/timeline-activities/rows/main-object/components/EventRowMainObject.tsx
@@ -21496,10 +21165,24 @@ msgstr "Stiamo ancora aspettando una conferma dal nostro fornitore di pagamenti 
 msgid "We're still waiting for the payment confirmation"
 msgstr "Stiamo ancora aspettando la conferma del pagamento"
 
+#. js-lingui-id: 4HIBRM
+#: src/modules/navigation/components/NavigationDrawerOtherSection.tsx
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Web Agents"
+msgstr ""
+
 #. js-lingui-id: LnnVIT
 #: src/modules/ai/components/SettingsAgentModelCapabilities.tsx
 msgid "Web Search"
 msgstr "Cerca sul Web"
+
+#. js-lingui-id: dtwb3o
+#: src/modules/settings/hooks/useSettingsNavigationItems.tsx
+#: src/pages/settings/web-search-apis/WebSearchApisSettings.tsx
+#: src/pages/settings/web-search-apis/WebSearchApisSettings.tsx
+msgid "Web Search APIs"
+msgstr ""
 
 #. js-lingui-id: 4ptK68
 #: src/modules/workflow/workflow-steps/workflow-actions/ai-agent-action/components/WorkflowRunStepLogsAiAgentDetail.tsx
@@ -21578,21 +21261,15 @@ msgstr ""
 msgid "Weight"
 msgstr "Peso"
 
-#. js-lingui-id: nTuObL
-#: src/pages/auth/SignInUp.tsx
-msgid "Welcome to Twenty"
-msgstr "Benvenuto in Twenty"
+#. js-lingui-id: 6jfS51
+#: src/utils/title-utils.ts
+msgid "Welcome"
+msgstr ""
 
 #. js-lingui-id: t8ZvkC
 #: src/modules/onboarding/constants/WelcomeTitleMessage.ts
-#: src/pages/auth/SignInUp.tsx
 msgid "Welcome to your workspace"
 msgstr "Benvenuto nel tuo spazio di lavoro"
-
-#. js-lingui-id: Vin3Dv
-#: src/pages/auth/SignInUp.tsx
-msgid "Welcome, {workspaceName}."
-msgstr "Benvenuto, {workspaceName}."
 
 #. js-lingui-id: Itn+J7
 #: src/modules/ai/components/suggested-prompts/AiChatSuggestedPrompts.tsx
@@ -21722,11 +21399,6 @@ msgstr "Larghezza"
 msgid "Will continue to the next iteration even if the current one fails"
 msgstr "Passerà all'iterazione successiva anche se quella corrente fallisce"
 
-#. js-lingui-id: UcBL9G
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Windsurf / Cascade"
-msgstr "Windsurf / Cascade"
-
 #. js-lingui-id: p9B1Re
 #: src/modules/object-record/record-field/ui/form-types/components/FormPhoneFieldInput.tsx
 msgid "Without calling code"
@@ -21764,6 +21436,7 @@ msgid "Workflow Execution"
 msgstr "Esecuzione del workflow"
 
 #. js-lingui-id: woYYQq
+#: src/modules/navigation/components/MainNavigationDrawerTabsRow.tsx
 #: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useSettingsRolePermissionFlagConfig.ts
 msgid "Workflows"
@@ -21790,15 +21463,16 @@ msgstr "Workflows"
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useSettingsRolePermissionFlagConfig.ts
 #: src/modules/settings/roles/role/components/SettingsRole.tsx
 #: src/modules/views/view-picker/components/ViewPickerListContent.tsx
+#: src/pages/lead-generation/LeadGeneration.tsx
 #: src/pages/settings/admin-panel/SettingsAdminApplicationRegistrationClaims.tsx
 #: src/pages/settings/admin-panel/SettingsAdminWorkspaceChatThread.tsx
+#: src/pages/settings/ai-providers/SettingsAIProviders.tsx
 #: src/pages/settings/ai/SettingsAgentForm.tsx
 #: src/pages/settings/ai/SettingsAgentTurnDetail.tsx
 #: src/pages/settings/ai/SettingsAgentTurnDetail.tsx
 #: src/pages/settings/ai/SettingsAgentTurnDetail.tsx
 #: src/pages/settings/ai/SettingsAI.tsx
 #: src/pages/settings/ai/SettingsAiPrompts.tsx
-#: src/pages/settings/ai/SettingsAiUsageUserDetail.tsx
 #: src/pages/settings/ai/SettingsSkillForm.tsx
 #: src/pages/settings/ai/SettingsToolDetail.tsx
 #: src/pages/settings/api-webhooks/SettingsApiWebhooks.tsx
@@ -21811,8 +21485,6 @@ msgstr "Workflows"
 #: src/pages/settings/applications/SettingsApplications.tsx
 #: src/pages/settings/applications/SettingsApplicationTimelineActivityTypeDetail.tsx
 #: src/pages/settings/applications/SettingsAvailableApplicationDetails.tsx
-#: src/pages/settings/billing/SettingsUsage.tsx
-#: src/pages/settings/billing/SettingsUsageUserDetail.tsx
 #: src/pages/settings/communications/SettingsWorkspaceCommunicationGroupChannelDetail.tsx
 #: src/pages/settings/communications/SettingsWorkspaceCommunications.tsx
 #: src/pages/settings/communications/SettingsWorkspaceNewUnsubscribeTopic.tsx
@@ -21831,7 +21503,6 @@ msgstr "Workflows"
 #: src/pages/settings/developers/playground/SettingsGraphQLPlayground.tsx
 #: src/pages/settings/developers/playground/SettingsRestPlayground.tsx
 #: src/pages/settings/developers/webhooks/components/SettingsWebhooks.tsx
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
 #: src/pages/settings/general/SettingsGeneral.tsx
 #: src/pages/settings/layout/components/SettingsLayoutDetailScaffold.tsx
 #: src/pages/settings/layout/SettingsLayout.tsx
@@ -21845,6 +21516,8 @@ msgstr "Workflows"
 #: src/pages/settings/members/SettingsWorkspaceMembers.tsx
 #: src/pages/settings/security/SettingsSecurityApprovedAccessDomain.tsx
 #: src/pages/settings/security/SettingsSecuritySSOIdentifyProvider.tsx
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+#: src/pages/settings/web-search-apis/WebSearchApisSettings.tsx
 msgid "Workspace"
 msgstr "Workspace"
 
@@ -21981,11 +21654,6 @@ msgstr "Dati dell'asse X"
 msgid "Y axis"
 msgstr "Asse Y"
 
-#. js-lingui-id: Kvzc1B
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "YAML config"
-msgstr "Configurazione YAML"
-
 #. js-lingui-id: 7qI8sJ
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
 #: src/modules/settings/billing/hooks/useBillingWording.ts
@@ -22116,11 +21784,6 @@ msgstr "Non hai il permesso di visualizzare questo widget"
 msgid "You don't have access to this object."
 msgstr "Non hai accesso a questo oggetto."
 
-#. js-lingui-id: /K45m9
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "You have reached the maximum number of server transfers allowed in the last 30 days for this enterprise key. Please try again later or contact support."
-msgstr "Hai raggiunto il numero massimo di trasferimenti di server consentiti negli ultimi 30 giorni per questa chiave Enterprise. Riprova più tardi o contatta l'assistenza."
-
 #. js-lingui-id: RDAH2t
 #: src/modules/settings/billing/components/internal/SettingsBillingSubscriptionInfoModals.tsx
 msgid "You have scheduled a credit pack change. Do you want to cancel it?"
@@ -22161,10 +21824,15 @@ msgstr "Perderai tutte le tue mappature."
 msgid "You will stop receiving these emails."
 msgstr "Non riceverai più queste email."
 
-#. js-lingui-id: Cl+hUj
+#. js-lingui-id: VTrdCy
 #: src/modules/settings/domains/components/SettingsSubdomain.tsx
-msgid "You're about to change your workspace subdomain. This action will log out all users."
-msgstr "Stai per cambiare il sotto-dominio del tuo spazio di lavoro. Questa azione disconnetterà tutti gli utenti."
+msgid "You're about to change your workspace subdomain. This action will end every active session."
+msgstr ""
+
+#. js-lingui-id: ou+mdT
+#: src/pages/auth/OS20SignedOut.tsx
+msgid "You're logged out"
+msgstr ""
 
 #. js-lingui-id: Z5uTAF
 #: src/modules/ai/components/AIChatNoMoreBillingCreditsBanner.tsx
@@ -22192,6 +21860,11 @@ msgstr ""
 msgid "You've hit your usage limit. Subscribe for more usage."
 msgstr "Hai raggiunto il tuo limite di utilizzo. Abbonati per aumentare i limiti di utilizzo."
 
+#. js-lingui-id: R9q2iD
+#: src/pages/settings/web-search-apis/WebSearchApisSettings.tsx
+msgid "Your API key"
+msgstr ""
+
 #. js-lingui-id: tOPGvO
 #: src/modules/apollo/services/apollo.factory.ts
 msgid "Your app version is out of date. Please refresh the page."
@@ -22211,36 +21884,6 @@ msgstr "Il tuo intervallo di fatturazione passerà immediatamente ad annuale e l
 #: src/pages/settings/legal/SettingsLegalDpaNew.tsx
 msgid "Your details"
 msgstr "I tuoi dettagli"
-
-#. js-lingui-id: ahEwS4
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Your enterprise features are active"
-msgstr "Le tue funzionalità Enterprise sono attive"
-
-#. js-lingui-id: XMZLU/
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Your enterprise features are active but your enterprise key is missing or invalid. This may be expected, but if not, please set a valid signed enterprise key to manage your subscription, or contact support."
-msgstr "Le tue funzionalità Enterprise sono attive ma la tua chiave Enterprise manca o non è valida. Questo potrebbe essere normale; in caso contrario, imposta una chiave Enterprise firmata valida per gestire il tuo abbonamento oppure contatta l'assistenza."
-
-#. js-lingui-id: AxcwNj
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Your enterprise features will be disabled"
-msgstr "Le tue funzionalità Enterprise verranno disabilitate"
-
-#. js-lingui-id: PT137K
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Your enterprise features will remain active until {cancelAtDate}."
-msgstr "Le tue funzionalità Enterprise rimarranno attive fino al {cancelAtDate}."
-
-#. js-lingui-id: krHgj1
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Your enterprise key"
-msgstr "La tua chiave Enterprise"
-
-#. js-lingui-id: NTpA4U
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Your enterprise subscription has been canceled."
-msgstr "Il tuo abbonamento Enterprise è stato annullato."
 
 #. js-lingui-id: gUv6/H
 #: src/pages/settings/applications/utils/getClaimErrorContent.ts
@@ -22288,30 +21931,20 @@ msgstr "Il tuo piano passerà immediatamente a Pro e la tua prova continuerà. A
 msgid "Your provider API key for authentication"
 msgstr "La chiave API del tuo provider per l'autenticazione"
 
-#. js-lingui-id: 319YPG
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Your subscription is active but your validity token is invalid or has expired. Try reloading it or contact support."
-msgstr "Il tuo abbonamento è attivo ma il tuo token di validità non è valido o è scaduto. Prova a ricaricarlo oppure contatta l'assistenza."
-
-#. js-lingui-id: Fx0axg
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Your subscription is scheduled for cancellation"
-msgstr "Il tuo abbonamento è programmato per l'annullamento"
-
 #. js-lingui-id: BqByjB
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
 msgid "Your subscription is scheduled to end on {scheduledCancellationDateLabel}. You will keep access until then"
 msgstr "Il tuo abbonamento terminerà il {scheduledCancellationDateLabel}. Manterrai l'accesso fino ad allora"
 
-#. js-lingui-id: XgIa/8
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Your subscription setup was not completed."
-msgstr "La configurazione del tuo abbonamento non è stata completata."
+#. js-lingui-id: JYNUkc
+#: src/pages/settings/web-agents/WebAgentsSettings.tsx
+msgid "Your web agents"
+msgstr ""
 
-#. js-lingui-id: Z9kbt6
-#: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "Your subscription status is: {statusLabel}"
-msgstr "Lo stato del tuo abbonamento è: {statusLabel}"
+#. js-lingui-id: O2dsSR
+#: src/pages/settings/web-search-apis/WebSearchApisSettings.tsx
+msgid "Your web search API keys"
+msgstr ""
 
 #. js-lingui-id: oC6WBs
 #: src/modules/information-banner/components/billing/InformationBannerNoBillingSubscription.tsx
@@ -22332,8 +21965,3 @@ msgstr "Il tuo spazio di lavoro ha raggiunto il limite di utilizzo dell'IA. Chie
 #: src/modules/settings/billing/components/SettingsBillingContent.tsx
 msgid "Your workspace will be disabled"
 msgstr "Il tuo workspace sarà disabilitato"
-
-#. js-lingui-id: ZGbFnN
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Zed"
-msgstr "Zed"
