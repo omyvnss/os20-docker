@@ -1,9 +1,10 @@
-import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import { Injectable, Logger, OnModuleInit, Optional } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 
 import { randomUUID } from 'crypto';
 import { Repository } from 'typeorm';
 
+import { DefaultLocalWorkspaceProvisioner } from './default-workspace-provisioner.service';
 import { Os20IdentityEntity } from './os20-identity.entity';
 
 type IdentityKey = 'workspace' | 'user';
@@ -27,6 +28,7 @@ export class LocalIdentityService implements OnModuleInit {
   constructor(
     @InjectRepository(Os20IdentityEntity)
     private readonly identityRepository: Repository<Os20IdentityEntity>,
+    @Optional() private readonly provisioner?: DefaultLocalWorkspaceProvisioner,
   ) {}
 
   async onModuleInit(): Promise<void> {
@@ -105,13 +107,30 @@ export class LocalIdentityService implements OnModuleInit {
       `SELECT id FROM core.workspace WHERE "deletedAt" IS NULL ORDER BY "createdAt" LIMIT 2`,
     );
 
-    if (existing.length === 1) {
+    if (existing.length > 0) {
       await this.identityRepository.save({
         key: 'workspace',
         value: existing[0].id,
       });
 
       return existing[0].id;
+    }
+
+    // No workspace at all (fresh install). Provision the default local
+    // workspace + admin user now so API-only flows work before the browser
+    // touches the app, instead of resolving to a phantom workspace UUID.
+    if (this.provisioner) {
+      const { workspaceId, userId } =
+        await this.provisioner.ensureProvisionsDefaultWorkspace();
+
+      this.userId = userId;
+
+      await this.identityRepository.save([
+        { key: 'workspace', value: workspaceId },
+        { key: 'user', value: userId },
+      ]);
+
+      return workspaceId;
     }
 
     return this.generateAndRecord('workspace');
