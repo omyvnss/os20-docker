@@ -1,0 +1,43 @@
+---
+title: Self-Host
+description: Run OS20 on your own machine or infrastructure.
+---
+
+## Overview
+
+OS20 is a free, open-source CRM that you can self-host on your own machine or infrastructure, giving you full control over your data and deployment. There is no cloud, no account, and no subscription.
+
+## Why Self-Host?
+
+- **Data ownership**: Keep all CRM data on your own servers or device
+- **Privacy**: Your data never leaves your machine
+- **Compliance**: Meet regulatory requirements for data residency
+- **Customization**: Full access to modify and extend the platform
+- **Free forever**: AGPL-licensed open source, no paywall
+
+## Getting Started
+
+The fastest way is the one-command CLI:
+
+```bash
+npm install -g os20
+os20 start
+```
+
+Or without the CLI, clone the repo and use Docker Compose:
+
+```bash
+git clone https://github.com/omos-twenty/os20.git
+cd os20
+docker compose up -d
+```
+
+<CardGroup cols={2}>
+  <Card title="Quickstart" icon="play" href="/getting-started/quickstart">
+    Install OS20 in under 5 minutes
+  </Card>
+  <Card title="Docker Compose" icon="docker" href="/developers/self-host/capabilities/docker-compose">
+    Full Docker setup reference
+  </Card>
+</CardGroup>
+

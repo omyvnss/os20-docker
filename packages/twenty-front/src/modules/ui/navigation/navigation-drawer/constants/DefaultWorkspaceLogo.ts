@@ -1,0 +1,1 @@
+export const DEFAULT_WORKSPACE_LOGO = '/images/icons/app-logo.svg';

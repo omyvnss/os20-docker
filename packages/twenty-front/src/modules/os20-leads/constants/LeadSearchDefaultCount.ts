@@ -1,0 +1,1 @@
+export const LEAD_SEARCH_DEFAULT_COUNT = 10;

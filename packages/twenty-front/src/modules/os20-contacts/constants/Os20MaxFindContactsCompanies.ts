@@ -1,0 +1,1 @@
+export const OS20_MAX_FIND_CONTACTS_COMPANIES = 10;

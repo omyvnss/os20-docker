@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" translate="no" class="light">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/images/icons/app-logo.svg"
+      data-rh="true"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/inter-tight.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/instrument-serif-400.woff2" crossorigin />
+    <style>
+      @font-face { font-family: 'Inter Tight'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('/fonts/inter-tight.woff2') format('woff2'); }
+      @font-face { font-family: 'Instrument Serif'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/instrument-serif-400.woff2') format('woff2'); }
+      @font-face { font-family: 'Geist'; font-style: normal; font-weight: 600; font-display: swap; src: url('/fonts/geist-600.woff2') format('woff2'); }
+    </style>
+
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="OS20, the open source CRM with AI built in." />
+    <meta property="og:image" content="/images/social-card.png" />
+    <meta property="og:description" content="OS20, the open source CRM that finds its own leads" />
+    <meta property="og:title" content="OS20" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/images/social-card.png" />
+
+    <meta name="twitter:description" content="OS20, the open source CRM that finds its own leads" />
+    <meta name="twitter:title" content="OS20" />
+    <title>OS20</title>
+    <!-- BEGIN: OS20 Config -->
+    <script id="twenty-env-config">
+      window._env_ = {
+        // This will be overwritten
+      };
+    </script>
+    <!-- END: OS20 Config -->
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content"
+    />
+    <script type="module">
+      const disableInputAutoZoom = () => {
+        const viewportMetadata = document.querySelector('meta[name=viewport]');
+
+        if (viewportMetadata !== null) {
+          viewportMetadata.setAttribute(
+            'content',
+            'width=device-width, initial-scale=1.0, maximum-scale=1.0, interactive-widget=resizes-content',
+          );
+        }
+      };
+
+      const isIOS = /iPad|iPhone/.test(navigator.userAgent);
+      if (isIOS) {
+        disableInputAutoZoom();
+      }
+    </script>
+    <style>
+      :root {
+        /* THEME_DARK.background.secondary */
+        --theme-dark-background-secondary: #1b1b1b;
+        /* THEME_LIGHT.background.secondary */
+        --theme-light-background-secondary: #fcfcfc;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        html,
+        body {
+          background-color: var(--theme-dark-background-secondary);
+        }
+      }
+
+      @media (prefers-color-scheme: light) {
+        html,
+        body {
+          background-color: var(--theme-light-background-secondary);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>

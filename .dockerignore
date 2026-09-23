@@ -1,0 +1,16 @@
+.git
+.env
+**/node_modules
+.nx/cache
+packages/twenty-server/.env
+packages/twenty-front/build
+**/.venv
+**/__pycache__
+.nx/workspace-data
+*.svg.tmp
+
+# Never send local secrets into the build context
+**/.env
+**/.env.local
+**/.env.*.local
+**/.vercel
